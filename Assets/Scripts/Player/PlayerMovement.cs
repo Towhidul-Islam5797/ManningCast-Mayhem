@@ -1,62 +1,96 @@
 #region Summary
 /// <summary>
-/// This script handles the player's movement in a grid-based manner. The player can move up, down, left, or right by pressing the corresponding keys (WASD or arrow keys). 
-///     The movement is restricted to a grid defined by the tileSize variable.
+/// This script handles the player's movement on a grid-based system. It listens for input actions and moves the player character to adjacent tiles based on the input direction.
 /// </summary>
-/// 
 /// <remarks>
-/// This script is designed for a Unity project and utilizes the new Input System package. It allows for basic grid movement, where the player moves one tile at a time based on the specified tile size. 
-///     The movement is instantaneous, and the player cannot move while already in motion.
+/// The movement is smooth and interpolated over a specified duration, ensuring that the player character transitions between tiles in a visually appealing manner. The script uses Unity's new Input System for handling player input.
 /// </remarks>
 #endregion
-
+#region Phase 1 Sprint 1 - Player Movement
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    #region Sprint 1 - Basic Grid Movement
+    #region Movement Settings
+    [SerializeField] private float moveDuration = 0.15f;
+    [SerializeField] private float gridSize = 1f;
+    #endregion
 
-    [SerializeField] private float tileSize = 1f;
+    #region Private State
+    private ManningCastControls controls;
+    private bool isMoving;
+    #endregion
 
-    private bool isMoving = false;
-
-    private void Update()
+    #region Unity Lifecycle
+    private void Awake()
     {
-        if (isMoving)
-            return;
+        controls = new ManningCastControls();
+    }
 
-        Vector2 direction = GetInputDirection();
+    private void OnEnable()
+    {
+        controls.Player.Enable();
+        controls.Player.Move.performed += OnMovePerformed;
+    }
 
-        if (direction != Vector2.zero)
+    private void OnDisable()
+    {
+        controls.Player.Move.performed -= OnMovePerformed;
+        controls.Player.Disable();
+    }
+    #endregion
+
+    #region Input Handling
+    private void OnMovePerformed(InputAction.CallbackContext context)
+    {
+        if (isMoving) return;
+
+        Vector2 input = context.ReadValue<Vector2>();
+        Vector2Int direction = GetCardinalDirection(input);
+
+        if (direction != Vector2Int.zero)
         {
-            Vector3 targetPosition = transform.position + (Vector3)(direction * tileSize);
-            MoveToPosition(targetPosition);
+            StartCoroutine(MoveToTile(direction));
         }
     }
 
-    private Vector2 GetInputDirection()
+    private Vector2Int GetCardinalDirection(Vector2 input)
     {
-        var keyboard = Keyboard.current;
-        if (keyboard == null)
-            return Vector2.zero;
+        if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+        {
+            return input.x > 0 ? Vector2Int.right : Vector2Int.left;
+        }
 
-        if (keyboard.wKey.wasPressedThisFrame || keyboard.upArrowKey.wasPressedThisFrame)
-            return Vector2.up;
-        if (keyboard.sKey.wasPressedThisFrame || keyboard.downArrowKey.wasPressedThisFrame)
-            return Vector2.down;
-        if (keyboard.aKey.wasPressedThisFrame || keyboard.leftArrowKey.wasPressedThisFrame)
-            return Vector2.left;
-        if (keyboard.dKey.wasPressedThisFrame || keyboard.rightArrowKey.wasPressedThisFrame)
-            return Vector2.right;
+        if (input.y != 0)
+        {
+            return input.y > 0 ? Vector2Int.up : Vector2Int.down;
+        }
 
-        return Vector2.zero;
+        return Vector2Int.zero;
     }
+    #endregion
 
-    private void MoveToPosition(Vector3 targetPosition)
+    #region Grid Movement
+    private IEnumerator MoveToTile(Vector2Int direction)
     {
-        transform.position = targetPosition;
-    }
+        isMoving = true;
 
+        Vector3 startPosition = transform.position;
+        Vector3 endPosition = startPosition + new Vector3(direction.x, direction.y, 0f) * gridSize;
+
+        float elapsed = 0f;
+        while (elapsed < moveDuration)
+        {
+            elapsed += Time.deltaTime;
+            transform.position = Vector3.Lerp(startPosition, endPosition, elapsed / moveDuration);
+            yield return null;
+        }
+
+        transform.position = endPosition;
+        isMoving = false;
+    }
     #endregion
 }
+#endregion
