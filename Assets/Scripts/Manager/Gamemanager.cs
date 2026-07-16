@@ -120,6 +120,167 @@
 #endregion
 
 #region Phase 1 Sprint 5 - GameManager Implementation with Score
+//using UnityEngine;
+
+//public class GameManager : MonoBehaviour
+//{
+//    #region Singleton
+//    public static GameManager Instance { get; private set; }
+
+//    private void Awake()
+//    {
+//        Instance = this;
+//    }
+//    #endregion
+
+//    #region Game State
+//    public enum GameState
+//    {
+//        Playing,
+//        Won,
+//        Lost
+//    }
+
+//    private GameState currentState;
+//    public GameState CurrentState => currentState;
+//    public bool IsGameOver => currentState != GameState.Playing;
+//    #endregion
+
+//    #region Lives Settings
+//    [SerializeField] private int startingLives = 3;
+//    private int currentLives;
+//    #endregion
+
+//    #region Score Settings
+//    [SerializeField] private int scorePerMove = 10;
+//    [SerializeField] private int scorePenaltyPerHit = 20;
+//    private int currentScore;
+//    public int CurrentScore => currentScore;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        currentLives = startingLives;
+//        currentScore = 0;
+//        currentState = GameState.Playing;
+//    }
+//    #endregion
+
+//    #region Game State Changes
+//    public void PlayerHitObstacle()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentLives--;
+//        currentScore = Mathf.Max(0, currentScore - scorePenaltyPerHit);
+//        Debug.Log("Life lost. Lives remaining: " + currentLives);
+
+//        if (currentLives <= 0)
+//        {
+//            currentState = GameState.Lost;
+//            Debug.Log("Game Over");
+//        }
+//    }
+
+//    public void PlayerReachedGoal()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentState = GameState.Won;
+//        Debug.Log("You Win");
+//    }
+
+//    public void AddMoveScore()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentScore += scorePerMove;
+//    }
+//    #endregion
+//}
+//using UnityEngine;
+
+//public class GameManager : MonoBehaviour
+//{
+//    #region Singleton
+//    public static GameManager Instance { get; private set; }
+
+//    private void Awake()
+//    {
+//        Instance = this;
+//    }
+//    #endregion
+
+//    #region Game State
+//    public enum GameState
+//    {
+//        Playing,
+//        Won,
+//        Lost
+//    }
+
+//    private GameState currentState;
+//    public GameState CurrentState => currentState;
+//    public bool IsGameOver => currentState != GameState.Playing;
+//    #endregion
+
+//    #region Lives Settings
+//    [SerializeField] private int startingLives = 3;
+//    private int currentLives;
+//    #endregion
+
+//    #region Score Settings
+//    [SerializeField] private int scorePerMove = 10;
+//    [SerializeField] private int scorePenaltyPerHit = 20;
+//    private int currentScore;
+//    public int CurrentScore => currentScore;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        currentLives = startingLives;
+//        currentScore = 0;
+//        currentState = GameState.Playing;
+//    }
+//    #endregion
+
+//    #region Game State Changes
+//    public void PlayerHitObstacle()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentLives--;
+//        currentScore = Mathf.Max(0, currentScore - scorePenaltyPerHit);
+//        Debug.Log("Life lost. Lives remaining: " + currentLives);
+
+//        if (currentLives <= 0)
+//        {
+//            currentState = GameState.Lost;
+//            Debug.Log("Game Over");
+//        }
+//    }
+
+//    public void PlayerReachedGoal()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentState = GameState.Won;
+//        Debug.Log("You Win");
+//    }
+
+//    public void AddMoveScore()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentScore += scorePerMove;
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 1 Sprint 8 - GameManager Implementation with Score and Lives
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -149,6 +310,7 @@ public class GameManager : MonoBehaviour
     #region Lives Settings
     [SerializeField] private int startingLives = 3;
     private int currentLives;
+    public int CurrentLives => currentLives;
     #endregion
 
     #region Score Settings
