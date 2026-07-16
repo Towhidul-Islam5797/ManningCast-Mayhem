@@ -1,3 +1,4 @@
+#region Phase 1 Sprint 4 - Score Display
 using TMPro;
 using UnityEngine;
 
@@ -14,3 +15,4 @@ public class ScoreDisplay : MonoBehaviour
     }
     #endregion
 }
+#endregion
