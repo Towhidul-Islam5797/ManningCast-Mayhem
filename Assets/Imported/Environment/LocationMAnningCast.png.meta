@@ -1,0 +1,2029 @@
+fileFormatVersion: 2
+guid: b946952756c4fc24f94b276e10fd62d3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4441977911382668840
+    second: LocationMAnningCast_0
+  - first:
+      213: -3918671177871339541
+    second: LocationMAnningCast_1
+  - first:
+      213: 3405265070287063442
+    second: LocationMAnningCast_2
+  - first:
+      213: 8958364096155384774
+    second: LocationMAnningCast_3
+  - first:
+      213: -8610621682195138018
+    second: LocationMAnningCast_4
+  - first:
+      213: 3414207988290572301
+    second: LocationMAnningCast_5
+  - first:
+      213: -7659255889949185396
+    second: LocationMAnningCast_6
+  - first:
+      213: 3354710545509458919
+    second: LocationMAnningCast_7
+  - first:
+      213: -2969023614903738795
+    second: LocationMAnningCast_8
+  - first:
+      213: -783760131045605883
+    second: LocationMAnningCast_9
+  - first:
+      213: 3934138630652573729
+    second: LocationMAnningCast_10
+  - first:
+      213: 4020692627391364391
+    second: LocationMAnningCast_11
+  - first:
+      213: -4871818511973570734
+    second: LocationMAnningCast_12
+  - first:
+      213: 1268820550793368019
+    second: LocationMAnningCast_13
+  - first:
+      213: 6276597777883565989
+    second: LocationMAnningCast_14
+  - first:
+      213: -334366035419699829
+    second: LocationMAnningCast_15
+  - first:
+      213: -559970485172602215
+    second: LocationMAnningCast_16
+  - first:
+      213: -8761420095048208171
+    second: LocationMAnningCast_17
+  - first:
+      213: -3736668110341486890
+    second: LocationMAnningCast_18
+  - first:
+      213: 2750051870099826446
+    second: LocationMAnningCast_19
+  - first:
+      213: 4484988344459460929
+    second: LocationMAnningCast_20
+  - first:
+      213: 3995650147460204716
+    second: LocationMAnningCast_21
+  - first:
+      213: 8144935244527103411
+    second: LocationMAnningCast_22
+  - first:
+      213: 7050181762576318481
+    second: LocationMAnningCast_23
+  - first:
+      213: -5941579090150041375
+    second: LocationMAnningCast_24
+  - first:
+      213: 6032049903434370056
+    second: LocationMAnningCast_25
+  - first:
+      213: -8023774679759944749
+    second: LocationMAnningCast_26
+  - first:
+      213: 5592745553001383215
+    second: LocationMAnningCast_27
+  - first:
+      213: 40490609494640483
+    second: LocationMAnningCast_28
+  - first:
+      213: 1926877260045008100
+    second: LocationMAnningCast_29
+  - first:
+      213: 9071155765551671655
+    second: LocationMAnningCast_30
+  - first:
+      213: 3596701704035358208
+    second: LocationMAnningCast_31
+  - first:
+      213: 4266945107904985782
+    second: LocationMAnningCast_32
+  - first:
+      213: -143395649314528416
+    second: LocationMAnningCast_33
+  - first:
+      213: -5924001129697243066
+    second: LocationMAnningCast_34
+  - first:
+      213: 4105134672796853260
+    second: LocationMAnningCast_35
+  - first:
+      213: 6597859231438131465
+    second: LocationMAnningCast_36
+  - first:
+      213: 332068669907387242
+    second: LocationMAnningCast_37
+  - first:
+      213: 169018495114184045
+    second: LocationMAnningCast_38
+  - first:
+      213: 9050297822735858883
+    second: LocationMAnningCast_39
+  - first:
+      213: -7309594821556056730
+    second: LocationMAnningCast_40
+  - first:
+      213: -6413391605067476638
+    second: LocationMAnningCast_41
+  - first:
+      213: -3572779429800617949
+    second: LocationMAnningCast_42
+  - first:
+      213: -5609843945976340495
+    second: LocationMAnningCast_43
+  - first:
+      213: -3237505831636752647
+    second: LocationMAnningCast_44
+  - first:
+      213: -1462738725742179157
+    second: LocationMAnningCast_45
+  - first:
+      213: -2766669953555350910
+    second: LocationMAnningCast_46
+  - first:
+      213: 3482369657314138072
+    second: LocationMAnningCast_47
+  - first:
+      213: 4339372781500094167
+    second: LocationMAnningCast_48
+  - first:
+      213: -5158488118996116153
+    second: LocationMAnningCast_49
+  - first:
+      213: -7472427398023329463
+    second: LocationMAnningCast_50
+  - first:
+      213: -15662390647510152
+    second: LocationMAnningCast_51
+  - first:
+      213: -5280400709070689991
+    second: LocationMAnningCast_52
+  - first:
+      213: -4251747179578653582
+    second: LocationMAnningCast_53
+  - first:
+      213: -4494555861181200273
+    second: LocationMAnningCast_54
+  - first:
+      213: 1707979468617936307
+    second: LocationMAnningCast_55
+  - first:
+      213: -2020695980343213242
+    second: LocationMAnningCast_56
+  - first:
+      213: -4441680647822995848
+    second: LocationMAnningCast_57
+  - first:
+      213: -9131759355086515279
+    second: LocationMAnningCast_58
+  - first:
+      213: -4207550690351788874
+    second: LocationMAnningCast_59
+  - first:
+      213: 1935626971723247070
+    second: LocationMAnningCast_60
+  - first:
+      213: -8977847358065871517
+    second: LocationMAnningCast_61
+  - first:
+      213: 411648090274905699
+    second: LocationMAnningCast_62
+  - first:
+      213: 1593467084214381593
+    second: LocationMAnningCast_63
+  - first:
+      213: -2885421671340042228
+    second: LocationMAnningCast_64
+  - first:
+      213: 6949996908120621767
+    second: LocationMAnningCast_65
+  - first:
+      213: 8881545183181880182
+    second: LocationMAnningCast_66
+  - first:
+      213: 5637138183298841453
+    second: LocationMAnningCast_67
+  - first:
+      213: 2798892346173228722
+    second: LocationMAnningCast_68
+  - first:
+      213: 7357971798503808854
+    second: LocationMAnningCast_69
+  - first:
+      213: 8588083680110948686
+    second: LocationMAnningCast_70
+  - first:
+      213: 8842584911083071709
+    second: LocationMAnningCast_71
+  - first:
+      213: 24658586797183977
+    second: LocationMAnningCast_72
+  - first:
+      213: 6399101503846021684
+    second: LocationMAnningCast_73
+  - first:
+      213: 2570107733207356609
+    second: LocationMAnningCast_74
+  - first:
+      213: 614633044400535620
+    second: LocationMAnningCast_75
+  - first:
+      213: 2556096178353611959
+    second: LocationMAnningCast_76
+  - first:
+      213: -956475134683376941
+    second: LocationMAnningCast_77
+  - first:
+      213: -5546759284721187572
+    second: LocationMAnningCast_78
+  - first:
+      213: 2639174778920009226
+    second: LocationMAnningCast_79
+  - first:
+      213: 6153841155115480412
+    second: LocationMAnningCast_80
+  - first:
+      213: -5440266881578362048
+    second: LocationMAnningCast_81
+  - first:
+      213: -8797487167025676164
+    second: LocationMAnningCast_82
+  - first:
+      213: 793869781736492656
+    second: LocationMAnningCast_83
+  - first:
+      213: 6929679047641259370
+    second: LocationMAnningCast_84
+  - first:
+      213: -1535450062465274315
+    second: LocationMAnningCast_85
+  - first:
+      213: -2807932981831907119
+    second: LocationMAnningCast_86
+  - first:
+      213: -2025342766157781260
+    second: LocationMAnningCast_87
+  - first:
+      213: -2077654651310189177
+    second: LocationMAnningCast_88
+  - first:
+      213: -6398218021042253087
+    second: LocationMAnningCast_89
+  - first:
+      213: 7053981574043724040
+    second: LocationMAnningCast_90
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LocationMAnningCast_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 9341
+        width: 1229
+        height: 827
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8267814306315ad30800000000000000
+      internalID: 4441977911382668840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_1
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 9352
+        width: 1280
+        height: 816
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befca6363551e99c0800000000000000
+      internalID: -3918671177871339541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_2
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 9348
+        width: 1243
+        height: 820
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29981802a8ee14f20800000000000000
+      internalID: 3405265070287063442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_3
+      rect:
+        serializedVersion: 2
+        x: 4025
+        y: 9328
+        width: 1090
+        height: 840
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb74f79ea0825c70800000000000000
+      internalID: 8958364096155384774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_4
+      rect:
+        serializedVersion: 2
+        x: 5350
+        y: 8911
+        width: 844
+        height: 1257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a7b79733de08880800000000000000
+      internalID: -8610621682195138018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_5
+      rect:
+        serializedVersion: 2
+        x: 6273
+        y: 9376
+        width: 1242
+        height: 792
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d005c5b7314b16f20800000000000000
+      internalID: 3414207988290572301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_6
+      rect:
+        serializedVersion: 2
+        x: 7635
+        y: 9381
+        width: 555
+        height: 787
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8aa2cb395bd4b590800000000000000
+      internalID: -7659255889949185396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_7
+      rect:
+        serializedVersion: 2
+        x: 8457
+        y: 9655
+        width: 1252
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3295597735e8e20800000000000000
+      internalID: 3354710545509458919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 8893
+        width: 708
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e9ae7b0c8ebc6d0800000000000000
+      internalID: -2969023614903738795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_9
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 8893
+        width: 814
+        height: 395
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50eb9e730568f15f0800000000000000
+      internalID: -783760131045605883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_10
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 8899
+        width: 1055
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12830399d3ed89630800000000000000
+      internalID: 3934138630652573729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_11
+      rect:
+        serializedVersion: 2
+        x: 3129
+        y: 8673
+        width: 386
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72db1be54ae5cc730800000000000000
+      internalID: 4020692627391364391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_12
+      rect:
+        serializedVersion: 2
+        x: 6279
+        y: 8881
+        width: 715
+        height: 427
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257a4a710e2d36cb0800000000000000
+      internalID: -4871818511973570734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_13
+      rect:
+        serializedVersion: 2
+        x: 7135
+        y: 8887
+        width: 717
+        height: 418
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d111c58191cb9110800000000000000
+      internalID: 1268820550793368019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_14
+      rect:
+        serializedVersion: 2
+        x: 8457
+        y: 8025
+        width: 1252
+        height: 1252
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af81c49c64fa1750800000000000000
+      internalID: 6276597777883565989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_15
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 8469
+        width: 361
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b856ad1ccd71c5bf0800000000000000
+      internalID: -334366035419699829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_16
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 8575
+        width: 287
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a75928fc59a38f0800000000000000
+      internalID: -559970485172602215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_17
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 8573
+        width: 312
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0bea2f7de296680800000000000000
+      internalID: -8761420095048208171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_18
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 8555
+        width: 312
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6c09fb620b42cc0800000000000000
+      internalID: -3736668110341486890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_19
+      rect:
+        serializedVersion: 2
+        x: 2299
+        y: 8575
+        width: 287
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07e23ffa952a2620800000000000000
+      internalID: 2750051870099826446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_20
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 8452
+        width: 266
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14106450321ed3e30800000000000000
+      internalID: 4484988344459460929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_21
+      rect:
+        serializedVersion: 2
+        x: 4469
+        y: 8468
+        width: 670
+        height: 370
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca84a16a3a6637730800000000000000
+      internalID: 3995650147460204716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_22
+      rect:
+        serializedVersion: 2
+        x: 5350
+        y: 8457
+        width: 534
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bde890837f980170800000000000000
+      internalID: 8144935244527103411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 8015
+        width: 361
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1108c48a5f647d160800000000000000
+      internalID: 7050181762576318481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_24
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 8019
+        width: 361
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8d7be1c454b8da0800000000000000
+      internalID: -5941579090150041375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_25
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 7998
+        width: 266
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c82a19d6526b350800000000000000
+      internalID: 6032049903434370056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_26
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 7998
+        width: 257
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d38227c073d5a090800000000000000
+      internalID: -8023774679759944749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_27
+      rect:
+        serializedVersion: 2
+        x: 1868
+        y: 7998
+        width: 257
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f250bc5e27c6d9d40800000000000000
+      internalID: 5592745553001383215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_28
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 8102
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367caabaef9df8000800000000000000
+      internalID: 40490609494640483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_29
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 7998
+        width: 267
+        height: 402
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecb2c2b8a4adba10800000000000000
+      internalID: 1926877260045008100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_30
+      rect:
+        serializedVersion: 2
+        x: 4036
+        y: 8046
+        width: 358
+        height: 342
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769a1f39b1833ed70800000000000000
+      internalID: 9071155765551671655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_31
+      rect:
+        serializedVersion: 2
+        x: 4507
+        y: 8047
+        width: 324
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006d118c42d0ae130800000000000000
+      internalID: 3596701704035358208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_32
+      rect:
+        serializedVersion: 2
+        x: 4915
+        y: 8015
+        width: 389
+        height: 351
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba74c8e7fb373b30800000000000000
+      internalID: 4266945107904985782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_33
+      rect:
+        serializedVersion: 2
+        x: 5337
+        y: 8015
+        width: 426
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063654caa6e820ef0800000000000000
+      internalID: -143395649314528416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_34
+      rect:
+        serializedVersion: 2
+        x: 5798
+        y: 8015
+        width: 406
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6401267fb58b9cda0800000000000000
+      internalID: -5924001129697243066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_35
+      rect:
+        serializedVersion: 2
+        x: 6236
+        y: 7998
+        width: 414
+        height: 388
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0422372c3e58f830800000000000000
+      internalID: 4105134672796853260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_36
+      rect:
+        serializedVersion: 2
+        x: 6680
+        y: 8029
+        width: 413
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901d6e7930e409b50800000000000000
+      internalID: 6597859231438131465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_37
+      rect:
+        serializedVersion: 2
+        x: 7201
+        y: 8015
+        width: 271
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a63cdd622bebb9400800000000000000
+      internalID: 332068669907387242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_38
+      rect:
+        serializedVersion: 2
+        x: 7566
+        y: 8046
+        width: 416
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6580c10d69785200800000000000000
+      internalID: 169018495114184045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 7576
+        width: 362
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc79a35bed199d70800000000000000
+      internalID: 9050297822735858883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_40
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 7593
+        width: 419
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dcd19dc3a1f8a90800000000000000
+      internalID: -7309594821556056730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_41
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 7622
+        width: 818
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2611b76905e0ff6a0800000000000000
+      internalID: -6413391605067476638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_42
+      rect:
+        serializedVersion: 2
+        x: 1834
+        y: 7557
+        width: 694
+        height: 412
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32859e9b900fa6ec0800000000000000
+      internalID: -3572779429800617949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_43
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 7340
+        width: 92
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff54b247a4d522b0800000000000000
+      internalID: -5609843945976340495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_44
+      rect:
+        serializedVersion: 2
+        x: 2848
+        y: 7340
+        width: 111
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6290369911213d0800000000000000
+      internalID: -3237505831636752647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_45
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 7340
+        width: 95
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac0eecf0ee43bbe0800000000000000
+      internalID: -1462738725742179157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_46
+      rect:
+        serializedVersion: 2
+        x: 3126
+        y: 7340
+        width: 111
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a369fe550da99d0800000000000000
+      internalID: -2766669953555350910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_47
+      rect:
+        serializedVersion: 2
+        x: 3260
+        y: 7340
+        width: 106
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7dec0c0ccd35030800000000000000
+      internalID: 3482369657314138072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_48
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 7340
+        width: 119
+        height: 592
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6df45cd8c883c30800000000000000
+      internalID: 4339372781500094167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_49
+      rect:
+        serializedVersion: 2
+        x: 4931
+        y: 7620
+        width: 1662
+        height: 239
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74dd929f26e5968b0800000000000000
+      internalID: -5158488118996116153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_50
+      rect:
+        serializedVersion: 2
+        x: 8457
+        y: 7604
+        width: 1252
+        height: 257
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9494ce24fda9c4890800000000000000
+      internalID: -7472427398023329463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_51
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 7194
+        width: 376
+        height: 319
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b2f11832b58cff0800000000000000
+      internalID: -15662390647510152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_52
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 7135
+        width: 374
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939ee18288f38b6b0800000000000000
+      internalID: -5280400709070689991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_53
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 7283
+        width: 825
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27402768772cef4c0800000000000000
+      internalID: -4251747179578653582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_54
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 7233
+        width: 729
+        height: 242
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f680527e14120a1c0800000000000000
+      internalID: -4494555861181200273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_55
+      rect:
+        serializedVersion: 2
+        x: 3565
+        y: 6693
+        width: 425
+        height: 792
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bde1a60746f3b710800000000000000
+      internalID: 1707979468617936307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_56
+      rect:
+        serializedVersion: 2
+        x: 4040
+        y: 6690
+        width: 756
+        height: 847
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643459446bb05f3e0800000000000000
+      internalID: -2020695980343213242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_57
+      rect:
+        serializedVersion: 2
+        x: 4931
+        y: 6910
+        width: 1662
+        height: 680
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e88ccdbfafb52c0800000000000000
+      internalID: -4441680647822995848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_59
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 6693
+        width: 359
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcc12f80f6cb95c0800000000000000
+      internalID: -4207550690351788874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_60
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 6697
+        width: 361
+        height: 376
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddaa33b97abcda10800000000000000
+      internalID: 1935626971723247070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_61
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 6682
+        width: 362
+        height: 386
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365fdcef467486380800000000000000
+      internalID: -8977847358065871517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_62
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 6707
+        width: 398
+        height: 356
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ebd41d1c776b500800000000000000
+      internalID: 411648090274905699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_63
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 6776
+        width: 1702
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c20ebded12d1610800000000000000
+      internalID: 1593467084214381593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_64
+      rect:
+        serializedVersion: 2
+        x: 7214
+        y: 6235
+        width: 699
+        height: 835
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08109c074ce4f7d0800000000000000
+      internalID: -2885421671340042228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_65
+      rect:
+        serializedVersion: 2
+        x: 8054
+        y: 5431
+        width: 777
+        height: 1511
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2c7928d59537060800000000000000
+      internalID: 6949996908120621767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_66
+      rect:
+        serializedVersion: 2
+        x: 8996
+        y: 4897
+        width: 1106
+        height: 2176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b3324a946914b70800000000000000
+      internalID: 8881545183181880182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_67
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 6248
+        width: 826
+        height: 383
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b71559f432b3e40800000000000000
+      internalID: 5637138183298841453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LocationMAnningCast_68
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 4963
+        width: 808
+        height: 1198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6073a72c9a7d620800000000000000
+      internalID: 2798892346173228722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 20fb485f463e2124ca26b5373bc04231
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LocationMAnningCast_0: 4441977911382668840
+      LocationMAnningCast_1: -3918671177871339541
+      LocationMAnningCast_10: 3934138630652573729
+      LocationMAnningCast_11: 4020692627391364391
+      LocationMAnningCast_12: -4871818511973570734
+      LocationMAnningCast_13: 1268820550793368019
+      LocationMAnningCast_14: 6276597777883565989
+      LocationMAnningCast_15: -334366035419699829
+      LocationMAnningCast_16: -559970485172602215
+      LocationMAnningCast_17: -8761420095048208171
+      LocationMAnningCast_18: -3736668110341486890
+      LocationMAnningCast_19: 2750051870099826446
+      LocationMAnningCast_2: 3405265070287063442
+      LocationMAnningCast_20: 4484988344459460929
+      LocationMAnningCast_21: 3995650147460204716
+      LocationMAnningCast_22: 8144935244527103411
+      LocationMAnningCast_23: 7050181762576318481
+      LocationMAnningCast_24: -5941579090150041375
+      LocationMAnningCast_25: 6032049903434370056
+      LocationMAnningCast_26: -8023774679759944749
+      LocationMAnningCast_27: 5592745553001383215
+      LocationMAnningCast_28: 40490609494640483
+      LocationMAnningCast_29: 1926877260045008100
+      LocationMAnningCast_3: 8958364096155384774
+      LocationMAnningCast_30: 9071155765551671655
+      LocationMAnningCast_31: 3596701704035358208
+      LocationMAnningCast_32: 4266945107904985782
+      LocationMAnningCast_33: -143395649314528416
+      LocationMAnningCast_34: -5924001129697243066
+      LocationMAnningCast_35: 4105134672796853260
+      LocationMAnningCast_36: 6597859231438131465
+      LocationMAnningCast_37: 332068669907387242
+      LocationMAnningCast_38: 169018495114184045
+      LocationMAnningCast_39: 9050297822735858883
+      LocationMAnningCast_4: -8610621682195138018
+      LocationMAnningCast_40: -7309594821556056730
+      LocationMAnningCast_41: -6413391605067476638
+      LocationMAnningCast_42: -3572779429800617949
+      LocationMAnningCast_43: -5609843945976340495
+      LocationMAnningCast_44: -3237505831636752647
+      LocationMAnningCast_45: -1462738725742179157
+      LocationMAnningCast_46: -2766669953555350910
+      LocationMAnningCast_47: 3482369657314138072
+      LocationMAnningCast_48: 4339372781500094167
+      LocationMAnningCast_49: -5158488118996116153
+      LocationMAnningCast_5: 3414207988290572301
+      LocationMAnningCast_50: -7472427398023329463
+      LocationMAnningCast_51: -15662390647510152
+      LocationMAnningCast_52: -5280400709070689991
+      LocationMAnningCast_53: -4251747179578653582
+      LocationMAnningCast_54: -4494555861181200273
+      LocationMAnningCast_55: 1707979468617936307
+      LocationMAnningCast_56: -2020695980343213242
+      LocationMAnningCast_57: -4441680647822995848
+      LocationMAnningCast_58: -9131759355086515279
+      LocationMAnningCast_59: -4207550690351788874
+      LocationMAnningCast_6: -7659255889949185396
+      LocationMAnningCast_60: 1935626971723247070
+      LocationMAnningCast_61: -8977847358065871517
+      LocationMAnningCast_62: 411648090274905699
+      LocationMAnningCast_63: 1593467084214381593
+      LocationMAnningCast_64: -2885421671340042228
+      LocationMAnningCast_65: 6949996908120621767
+      LocationMAnningCast_66: 8881545183181880182
+      LocationMAnningCast_67: 5637138183298841453
+      LocationMAnningCast_68: 2798892346173228722
+      LocationMAnningCast_69: 7357971798503808854
+      LocationMAnningCast_7: 3354710545509458919
+      LocationMAnningCast_70: 8588083680110948686
+      LocationMAnningCast_71: 8842584911083071709
+      LocationMAnningCast_72: 24658586797183977
+      LocationMAnningCast_73: 6399101503846021684
+      LocationMAnningCast_74: 2570107733207356609
+      LocationMAnningCast_75: 614633044400535620
+      LocationMAnningCast_76: 2556096178353611959
+      LocationMAnningCast_77: -956475134683376941
+      LocationMAnningCast_78: -5546759284721187572
+      LocationMAnningCast_79: 2639174778920009226
+      LocationMAnningCast_8: -2969023614903738795
+      LocationMAnningCast_80: 6153841155115480412
+      LocationMAnningCast_81: -5440266881578362048
+      LocationMAnningCast_82: -8797487167025676164
+      LocationMAnningCast_83: 793869781736492656
+      LocationMAnningCast_84: 6929679047641259370
+      LocationMAnningCast_85: -1535450062465274315
+      LocationMAnningCast_86: -2807932981831907119
+      LocationMAnningCast_87: -2025342766157781260
+      LocationMAnningCast_88: -2077654651310189177
+      LocationMAnningCast_89: -6398218021042253087
+      LocationMAnningCast_9: -783760131045605883
+      LocationMAnningCast_90: 7053981574043724040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
