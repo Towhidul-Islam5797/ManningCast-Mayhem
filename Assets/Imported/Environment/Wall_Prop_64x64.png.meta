@@ -1161,7 +1161,7 @@ TextureImporter:
         serializedVersion: 2
         x: 254
         y: 445
-        width: 98
+        width: 64
         height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1181,9 +1181,9 @@ TextureImporter:
       name: Wall_Prop_64x64_42
       rect:
         serializedVersion: 2
-        x: 352
+        x: 318
         y: 445
-        width: 92
+        width: 63
         height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2031,6 +2031,28 @@ TextureImporter:
       bones: []
       spriteID: b66c56cf26830f246b06ed3f8cf8491a
       internalID: 357346011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wall_Prop_64x64_43
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 445
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc9e4d035b11c448b11283196af80d3
+      internalID: -2006147569
       vertices: []
       indices: 
       edges: []
