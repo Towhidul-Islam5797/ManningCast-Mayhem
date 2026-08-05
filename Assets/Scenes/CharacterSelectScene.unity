@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 080a0b02ffd610242893bda40d5d7f6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSelectManager
-  mainSceneName: MainScene
+  mainSceneName: GameScene
 --- !u!1 &662495676
 GameObject:
   m_ObjectHideFlags: 0

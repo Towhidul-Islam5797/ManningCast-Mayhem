@@ -729,6 +729,291 @@
 #endregion
 
 #region Phase 2 Sprint 3 - Player Movement with Animation, Pause Handling, Score Tracking, and Wall Collision
+//using System.Collections;
+//using UnityEngine;
+//using UnityEngine.InputSystem;
+
+//public class PlayerMovement : MonoBehaviour
+//{
+//    #region Movement Settings
+//    [SerializeField] private float moveDuration = 0.15f;
+//    [SerializeField] private float gridSize = 1f;
+//    [SerializeField] private LayerMask wallLayer;
+//    [SerializeField] private Vector2 wallCheckSize = new Vector2(0.8f, 0.8f);
+//    #endregion
+
+//    #region Private State
+//    private Animator animator;
+//    private bool isMoving;
+//    private bool inputLocked;
+//    private Vector3 startPosition;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        animator = GetComponent<Animator>();
+//        startPosition = transform.position;
+//    }
+//    #endregion
+
+//    #region Input Handling
+//    public void OnMovePerformed(InputAction.CallbackContext context)
+//    {
+//        if (isMoving || inputLocked || PauseManager.IsPaused) return;
+
+//        Vector2 input = context.ReadValue<Vector2>();
+//        Vector2Int direction = GetCardinalDirection(input);
+
+//        if (direction != Vector2Int.zero)
+//        {
+//            Vector3 targetPosition = transform.position + new Vector3(direction.x, direction.y, 0f) * gridSize;
+
+//            if (IsWallAt(targetPosition)) return;
+
+//            SetBlendDirection(direction);
+//            StartCoroutine(MoveToTile(direction));
+//        }
+//    }
+
+//    private bool IsWallAt(Vector3 position)
+//    {
+//        return Physics2D.OverlapBox(position, wallCheckSize, 0f, wallLayer);
+//    }
+
+//    private Vector2Int GetCardinalDirection(Vector2 input)
+//    {
+//        if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+//        {
+//            return input.x > 0 ? Vector2Int.right : Vector2Int.left;
+//        }
+
+//        if (input.y != 0)
+//        {
+//            return input.y > 0 ? Vector2Int.up : Vector2Int.down;
+//        }
+
+//        return Vector2Int.zero;
+//    }
+//    #endregion
+
+//    #region Animation
+//    private void SetBlendDirection(Vector2Int direction)
+//    {
+//        if (animator == null) return;
+
+//        animator.SetFloat("MoveX", direction.x);
+//        animator.SetFloat("MoveY", direction.y);
+//    }
+
+//    private void ResetToIdle()
+//    {
+//        if (animator == null) return;
+
+//        animator.SetFloat("MoveX", 0f);
+//        animator.SetFloat("MoveY", 0f);
+//    }
+//    #endregion
+
+//    #region Grid Movement
+//    private IEnumerator MoveToTile(Vector2Int direction)
+//    {
+//        isMoving = true;
+
+//        Vector3 startPos = transform.position;
+//        Vector3 endPosition = startPos + new Vector3(direction.x, direction.y, 0f) * gridSize;
+
+//        float elapsed = 0f;
+//        while (elapsed < moveDuration)
+//        {
+//            elapsed += Time.deltaTime;
+//            transform.position = Vector3.Lerp(startPos, endPosition, elapsed / moveDuration);
+//            yield return null;
+//        }
+
+//        transform.position = endPosition;
+//        isMoving = false;
+
+//        ResetToIdle();
+//        GameManager.Instance.AddMoveScore();
+//    }
+//    #endregion
+
+//    #region Obstacle Collision
+//    public void HandleObstacleHit()
+//    {
+//        StopAllCoroutines();
+//        isMoving = false;
+
+//        GameManager.Instance.PlayerHitObstacle();
+
+//        if (GameManager.Instance.IsGameOver)
+//        {
+//            inputLocked = true;
+//        }
+//        else
+//        {
+//            transform.position = startPosition;
+//            ResetToIdle();
+//        }
+//    }
+//    #endregion
+
+//    #region Goal Handling
+//    public void HandleGoalReached()
+//    {
+//        StopAllCoroutines();
+//        isMoving = false;
+
+//        GameManager.Instance.PlayerReachedGoal();
+//        inputLocked = true;
+//    }
+//    #endregion
+//}
+//using System.Collections;
+//using UnityEngine;
+//using UnityEngine.InputSystem;
+
+//public class PlayerMovement : MonoBehaviour
+//{
+//    #region Movement Settings
+//    [SerializeField] private float moveDuration = 0.15f;
+//    [SerializeField] private float gridSize = 1f;
+//    [SerializeField] private LayerMask wallLayer;
+//    [SerializeField] private Vector2 wallCheckSize = new Vector2(0.8f, 0.8f);
+//    #endregion
+
+//    #region Private State
+//    private Animator animator;
+//    private bool isMoving;
+//    private bool inputLocked;
+//    private Vector3 startPosition;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        animator = GetComponent<Animator>();
+//        startPosition = transform.position;
+//    }
+//    #endregion
+
+//    #region Input Handling
+//    public void OnMovePerformed(InputAction.CallbackContext context)
+//    {
+//        if (isMoving || inputLocked || PauseManager.IsPaused) return;
+
+//        Vector2 input = context.ReadValue<Vector2>();
+//        Vector2Int direction = GetCardinalDirection(input);
+
+//        if (direction != Vector2Int.zero)
+//        {
+//            Vector3 targetPosition = transform.position + new Vector3(direction.x, direction.y, 0f) * gridSize;
+
+//            if (IsWallAt(targetPosition)) return;
+
+//            SetBlendDirection(direction);
+//            StartCoroutine(MoveToTile(direction));
+//        }
+//    }
+
+//    private bool IsWallAt(Vector3 position)
+//    {
+//        return Physics2D.OverlapBox(position, wallCheckSize, 0f, wallLayer);
+//    }
+
+//    private Vector2Int GetCardinalDirection(Vector2 input)
+//    {
+//        if (Mathf.Abs(input.x) > Mathf.Abs(input.y))
+//        {
+//            return input.x > 0 ? Vector2Int.right : Vector2Int.left;
+//        }
+
+//        if (input.y != 0)
+//        {
+//            return input.y > 0 ? Vector2Int.up : Vector2Int.down;
+//        }
+
+//        return Vector2Int.zero;
+//    }
+//    #endregion
+
+//    #region Animation
+//    private void SetBlendDirection(Vector2Int direction)
+//    {
+//        if (animator == null) return;
+
+//        animator.SetFloat("MoveX", direction.x);
+//        animator.SetFloat("MoveY", direction.y);
+//    }
+
+//    private void ResetToIdle()
+//    {
+//        if (animator == null) return;
+
+//        animator.SetFloat("MoveX", 0f);
+//        animator.SetFloat("MoveY", 0f);
+//    }
+//    #endregion
+
+//    #region Grid Movement
+//    private IEnumerator MoveToTile(Vector2Int direction)
+//    {
+//        isMoving = true;
+
+//        Vector3 startPos = transform.position;
+//        Vector3 endPosition = startPos + new Vector3(direction.x, direction.y, 0f) * gridSize;
+
+//        float elapsed = 0f;
+//        while (elapsed < moveDuration)
+//        {
+//            elapsed += Time.deltaTime;
+//            transform.position = Vector3.Lerp(startPos, endPosition, elapsed / moveDuration);
+//            yield return null;
+//        }
+
+//        transform.position = endPosition;
+//        isMoving = false;
+
+//        ResetToIdle();
+//        GameManager.Instance.AddMoveScore();
+//    }
+//    #endregion
+
+//    #region Obstacle Collision
+//    public void HandleObstacleHit()
+//    {
+//        StopAllCoroutines();
+//        isMoving = false;
+
+//        GameManager.Instance.PlayerHitObstacle();
+
+//        if (GameManager.Instance.IsGameOver)
+//        {
+//            inputLocked = true;
+//        }
+//        else
+//        {
+//            transform.position = startPosition;
+//            ResetToIdle();
+//        }
+//    }
+//    #endregion
+
+//    #region Goal Handling
+//    public void HandleGoalReached()
+//    {
+//        StopAllCoroutines();
+//        isMoving = false;
+
+//        GameManager.Instance.PlayerReachedGoal();
+//        inputLocked = true;
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 2 Sprint 3 - Player Movement with Animation, Pause Handling, Score Tracking, and Wall Collision
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -739,11 +1024,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveDuration = 0.15f;
     [SerializeField] private float gridSize = 1f;
     [SerializeField] private LayerMask wallLayer;
-    [SerializeField] private Vector2 wallCheckSize = new Vector2(0.8f, 0.8f);
     #endregion
 
     #region Private State
     private Animator animator;
+    private BoxCollider2D bodyCollider;
     private bool isMoving;
     private bool inputLocked;
     private Vector3 startPosition;
@@ -753,6 +1038,7 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         animator = GetComponent<Animator>();
+        bodyCollider = GetComponent<BoxCollider2D>();
         startPosition = transform.position;
     }
     #endregion
@@ -778,7 +1064,8 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsWallAt(Vector3 position)
     {
-        return Physics2D.OverlapBox(position, wallCheckSize, 0f, wallLayer);
+        Vector2 checkPosition = (Vector2)position + bodyCollider.offset;
+        return Physics2D.OverlapBox(checkPosition, bodyCollider.size, 0f, wallLayer);
     }
 
     private Vector2Int GetCardinalDirection(Vector2 input)
