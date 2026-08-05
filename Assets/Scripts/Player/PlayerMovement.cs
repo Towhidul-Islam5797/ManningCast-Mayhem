@@ -728,7 +728,7 @@
 //}
 #endregion
 
-#region Phase 2 Sprint 1 - Player Movement with Animation, Pause Handling, Score Tracking, and Wall Collision
+#region Phase 2 Sprint 3 - Player Movement with Animation, Pause Handling, Score Tracking, and Wall Collision
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
