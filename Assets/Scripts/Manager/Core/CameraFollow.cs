@@ -39,7 +39,7 @@
 //}
 #endregion
 
-#region Phase 2 Sprint 4 - Camera Follow + Character Selection
+#region Phase 2 Sprint 2 - Camera Follow + Character Selection
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
