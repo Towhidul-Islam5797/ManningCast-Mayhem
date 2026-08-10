@@ -34,7 +34,7 @@ public class Obstacle : MonoBehaviour
     {
         Football,
         Sandwich,
-        Tackler
+        Flag
     }
 
     [SerializeField] private ObstacleType obstacleType;
@@ -51,7 +51,7 @@ public class Obstacle : MonoBehaviour
         switch (obstacleType)
         {
             case ObstacleType.Football:
-            case ObstacleType.Tackler:
+            case ObstacleType.Flag:
                 player.HandleObstacleHit(scorePenalty);
                 break;
 
