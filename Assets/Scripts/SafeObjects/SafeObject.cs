@@ -66,3 +66,4 @@ public class SafeObject : MonoBehaviour
     #endregion
 }
 #endregion
+

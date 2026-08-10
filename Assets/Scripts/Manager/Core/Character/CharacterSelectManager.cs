@@ -16,7 +16,7 @@ using UnityEngine.SceneManagement;
 public class CharacterSelectManager : MonoBehaviour
 {
     #region Scene Settings
-    [SerializeField] private string mainSceneName = "MainScene";
+    [SerializeField] private string mainSceneName;
     #endregion
 
     #region Selection Handlers
