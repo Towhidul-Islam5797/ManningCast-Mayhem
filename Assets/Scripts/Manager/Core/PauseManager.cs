@@ -7,6 +7,49 @@
 #endregion
 
 #region Phase 1 Sprint 5 - Pause Functionality
+//using UnityEngine;
+//using UnityEngine.InputSystem;
+
+//public class PauseManager : MonoBehaviour
+//{
+//    #region Pause State
+//    public static bool IsPaused { get; private set; }
+//    #endregion
+
+//    #region UI Reference
+//    [SerializeField] private GameObject pausedText;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        IsPaused = false;
+//        Time.timeScale = 1f;
+//    }
+
+//    private void Update()
+//    {
+//        if (GameManager.Instance.IsGameOver) return;
+
+//        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+//        {
+//            TogglePause();
+//        }
+//    }
+//    #endregion
+
+//    #region Pause Logic
+//    private void TogglePause()
+//    {
+//        IsPaused = !IsPaused;
+//        Time.timeScale = IsPaused ? 0f : 1f;
+//        pausedText.SetActive(IsPaused);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 2 Sprint 8 - Pause Functionality
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -17,7 +60,7 @@ public class PauseManager : MonoBehaviour
     #endregion
 
     #region UI Reference
-    [SerializeField] private GameObject pausedText;
+    [SerializeField] private GameObject settingsPanel;
     #endregion
 
     #region Unity Lifecycle
@@ -43,7 +86,19 @@ public class PauseManager : MonoBehaviour
     {
         IsPaused = !IsPaused;
         Time.timeScale = IsPaused ? 0f : 1f;
-        pausedText.SetActive(IsPaused);
+        settingsPanel.SetActive(IsPaused);
+    }
+
+    public void PauseGame()
+    {
+        IsPaused = true;
+        Time.timeScale = 0f;
+    }
+
+    public void ResumeGame()
+    {
+        IsPaused = false;
+        Time.timeScale = 1f;
     }
     #endregion
 }
