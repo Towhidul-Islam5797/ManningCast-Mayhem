@@ -108,16 +108,6 @@ public class MainMenuManager : MonoBehaviour
         settingsPanel.SetActive(true);
     }
 
-    public void Credits()
-    {
-        SceneManager.LoadScene(CreditsScene);
-    }
-
-    public void Leaderboard()
-    {
-        SceneManager.LoadScene(LeaderboardScene);
-    }
-
     public void QuitGame()
     {
         Application.Quit();

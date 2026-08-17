@@ -43,13 +43,64 @@
 
 
 #region Phase 2 Sprint 1 - Obstacle Spawner
+//using System.Collections;
+//using UnityEngine;
+
+//public class ObstacleSpawner : MonoBehaviour
+//{
+//    #region Spawn Settings
+//    [SerializeField] private ObjectPool pool;
+//    [SerializeField] private Transform spawnPoint;
+//    [SerializeField] private float laneEndX = 10f;
+//    [SerializeField] private float moveSpeed = 2f;
+//    [SerializeField] private int obstaclesPerBurst = 1;
+//    [SerializeField] private float delayBetweenObstaclesInBurst = 0.3f;
+//    [SerializeField] private float gapBetweenBursts = 2f;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        StartCoroutine(SpawnPatternLoop());
+//    }
+//    #endregion
+
+//    #region Spawning
+//    private IEnumerator SpawnPatternLoop()
+//    {
+//        while (true)
+//        {
+//            for (int i = 0; i < obstaclesPerBurst; i++)
+//            {
+//                SpawnObstacle();
+//                yield return new WaitForSeconds(delayBetweenObstaclesInBurst);
+//            }
+
+//            yield return new WaitForSeconds(gapBetweenBursts);
+//        }
+//    }
+
+//    private void SpawnObstacle()
+//    {
+//        GameObject obstacle = pool.Get();
+//        obstacle.transform.position = spawnPoint.position;
+
+//        ObstacleMover mover = obstacle.GetComponent<ObstacleMover>();
+//        mover.Setup(moveSpeed, laneEndX, pool);
+//    }
+//    #endregion
+//}
+#endregion
+
+
+#region Phase 3 Sprint 1 - Obstacle Spawner (Mixed Pool)
 using System.Collections;
 using UnityEngine;
 
 public class ObstacleSpawner : MonoBehaviour
 {
     #region Spawn Settings
-    [SerializeField] private ObjectPool pool;
+    [SerializeField] private ObjectPool[] pools;
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float laneEndX = 10f;
     [SerializeField] private float moveSpeed = 2f;
@@ -82,6 +133,8 @@ public class ObstacleSpawner : MonoBehaviour
 
     private void SpawnObstacle()
     {
+        ObjectPool pool = pools[Random.Range(0, pools.Length)];
+
         GameObject obstacle = pool.Get();
         obstacle.transform.position = spawnPoint.position;
 
@@ -91,3 +144,4 @@ public class ObstacleSpawner : MonoBehaviour
     #endregion
 }
 #endregion
+
