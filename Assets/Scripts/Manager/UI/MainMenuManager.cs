@@ -74,8 +74,6 @@ public class MainMenuManager : MonoBehaviour
     #region Scene Settings
     [SerializeField] private string mainMenuSceneName = "MainMenu";
     [SerializeField] private string characterSelectSceneName = "CharacterSelectScene";
-    [SerializeField] private string LeaderboardScene = "LeaderboardScene";
-    [SerializeField] private string CreditsScene = "CreditsScene";
     #endregion
 
     #region Panel References

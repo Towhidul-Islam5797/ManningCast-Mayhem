@@ -490,15 +490,16 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &136022651
-RectTransform:
+--- !u!4 &136022651
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 136022650}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -7.8, y: -1.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -506,11 +507,6 @@ RectTransform:
   - {fileID: 1367838877}
   m_Father: {fileID: 1039821692}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.8, y: -1.71}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &152634631
 GameObject:
   m_ObjectHideFlags: 0
@@ -1302,15 +1298,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d5b3e9d0fc9dd48b54db7b35f31053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  pools:
-  - {fileID: 1474015821}
-  - {fileID: 1780764175}
+  spawnEntries:
+  - pool: {fileID: 1474015821}
+    obstaclesPerBurst: 1
+    delayBetweenObstaclesInBurst: 4
+    gapBetweenBursts: 2
+    spawnCheckSize: {x: 1, y: 1}
+  - pool: {fileID: 1780764175}
+    obstaclesPerBurst: 3
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 3
+    spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 1503281548}
   laneEndX: 7.5
   moveSpeed: 2.5
-  obstaclesPerBurst: 1
-  delayBetweenObstaclesInBurst: 0.55
-  gapBetweenBursts: 3
+  laneItemsLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &386239406
 GameObject:
   m_ObjectHideFlags: 0
@@ -3960,8 +3964,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447703047}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.53, y: 1.045, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4486,14 +4490,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d5b3e9d0fc9dd48b54db7b35f31053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  pools:
-  - {fileID: 6141077}
+  spawnEntries:
+  - pool: {fileID: 6141077}
+    obstaclesPerBurst: 2
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 3
+    spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 241447959}
   laneEndX: -10
   moveSpeed: -2.5
-  obstaclesPerBurst: 4
-  delayBetweenObstaclesInBurst: 0.55
-  gapBetweenBursts: 4
+  laneItemsLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &540643540
 GameObject:
   m_ObjectHideFlags: 0
@@ -5086,7 +5094,7 @@ Transform:
   m_GameObject: {fileID: 643948906}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.53, y: 1.07, z: 0}
+  m_LocalPosition: {x: 0, y: 0.025000095, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5165,7 +5173,7 @@ Transform:
   m_GameObject: {fileID: 702991770}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -16.53, y: -1.0450001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5183,15 +5191,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d5b3e9d0fc9dd48b54db7b35f31053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  pools:
-  - {fileID: 1844992087}
-  - {fileID: 586442402}
+  spawnEntries:
+  - pool: {fileID: 1844992087}
+    obstaclesPerBurst: 1
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 4
+    spawnCheckSize: {x: 2, y: 1}
+  - pool: {fileID: 586442402}
+    obstaclesPerBurst: 3
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 3
+    spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 447703048}
   laneEndX: -7.5
   moveSpeed: -2
-  obstaclesPerBurst: 1
-  delayBetweenObstaclesInBurst: 0.55
-  gapBetweenBursts: 3
+  laneItemsLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &738160793
 GameObject:
   m_ObjectHideFlags: 0
@@ -7365,14 +7381,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d5b3e9d0fc9dd48b54db7b35f31053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  pools:
-  - {fileID: 586442402}
+  spawnEntries:
+  - pool: {fileID: 586442402}
+    obstaclesPerBurst: 3
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 2
+    spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 1425885495}
   laneEndX: 10
   moveSpeed: 2
-  obstaclesPerBurst: 3
-  delayBetweenObstaclesInBurst: 0.55
-  gapBetweenBursts: 3
+  laneItemsLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1379280354
 GameObject:
   m_ObjectHideFlags: 0
@@ -7727,7 +7747,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 16.53, y: 1.0450001}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1450753551
@@ -8293,8 +8313,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MainMenuManager
   mainMenuSceneName: MainMenu
   characterSelectSceneName: CharacterSelectScene
-  LeaderboardScene: LeaderboardScene
-  CreditsScene: CreditsScene
   settingsPanel: {fileID: 903510379}
 --- !u!1 &1552098445
 GameObject:
@@ -9514,7 +9532,7 @@ GameObject:
   - component: {fileID: 1844992088}
   - component: {fileID: 1844992087}
   m_Layer: 0
-  m_Name: SafePoo_Couchl_1
+  m_Name: SafePool_Couchl_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10131,14 +10149,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9d5b3e9d0fc9dd48b54db7b35f31053, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
-  pools:
-  - {fileID: 1780764175}
+  spawnEntries:
+  - pool: {fileID: 1780764175}
+    obstaclesPerBurst: 4
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 2
+    spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 361222958}
   laneEndX: 10
   moveSpeed: 2.2
-  obstaclesPerBurst: 4
-  delayBetweenObstaclesInBurst: 0.55
-  gapBetweenBursts: 3
+  laneItemsLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &1871445786
 GameObject:
   m_ObjectHideFlags: 0
