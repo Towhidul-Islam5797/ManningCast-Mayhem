@@ -375,7 +375,159 @@
 //}
 #endregion
 
-#region Phase 3 Sprint 1 - Obstacle Spawner (Independent Bursts, Collider-Checked Clearance)
+#region Phase 3 Sprint 1 - Obstacle Spawner (Independent Bursts, Collider-Checked Clearance) V4
+//using System.Collections;
+//using UnityEngine;
+
+//public class ObstacleSpawner : MonoBehaviour
+//{
+//    #region Spawn Entry
+//    [System.Serializable]
+//    private class SpawnEntry
+//    {
+//        public ObjectPool pool;
+//        public int obstaclesPerBurst = 1;
+//        public float delayBetweenObstaclesInBurst = 0.3f;
+//        public float gapBetweenBursts = 2f;
+//        public Vector2 spawnCheckSize = new Vector2(1f, 1f);
+//    }
+//    #endregion
+
+//    #region Spawn Settings
+//    [SerializeField] private SpawnEntry[] spawnEntries;
+//    [SerializeField] private Transform spawnPoint;
+//    [SerializeField] private float laneEndX = 10f;
+//    [SerializeField] private float moveSpeed = 2f;
+//    #endregion
+
+//    #region Clearance Check
+//    [SerializeField] private LayerMask laneItemsLayer;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        foreach (SpawnEntry entry in spawnEntries)
+//        {
+//            StartCoroutine(SpawnEntryLoop(entry));
+//        }
+//    }
+//    #endregion
+
+//    #region Spawning
+//    private IEnumerator SpawnEntryLoop(SpawnEntry entry)
+//    {
+//        while (true)
+//        {
+//            for (int i = 0; i < entry.obstaclesPerBurst; i++)
+//            {
+//                yield return StartCoroutine(WaitForClearSpawnPoint(entry.spawnCheckSize));
+//                SpawnObstacle(entry.pool);
+//                yield return new WaitForSeconds(entry.delayBetweenObstaclesInBurst);
+//            }
+
+//            yield return new WaitForSeconds(entry.gapBetweenBursts);
+//        }
+//    }
+
+//    private IEnumerator WaitForClearSpawnPoint(Vector2 checkSize)
+//    {
+//        while (Physics2D.OverlapBox(spawnPoint.position, checkSize, 0f, laneItemsLayer))
+//        {
+//            yield return null;
+//        }
+//    }
+
+//    private void SpawnObstacle(ObjectPool pool)
+//    {
+//        GameObject obstacle = pool.Get();
+//        obstacle.transform.position = spawnPoint.position;
+
+//        ObstacleMover mover = obstacle.GetComponent<ObstacleMover>();
+//        mover.Setup(moveSpeed, laneEndX, pool);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 1 - Obstacle Spawner (Independent Bursts, Collider-Checked Clearance) V5
+//using System.Collections;
+//using UnityEngine;
+
+//public class ObstacleSpawner : MonoBehaviour
+//{
+//    #region Spawn Entry
+//    [System.Serializable]
+//    private class SpawnEntry
+//    {
+//        public ObjectPool pool;
+//        public int obstaclesPerBurst = 1;
+//        public float delayBetweenObstaclesInBurst = 0.3f;
+//        public float gapBetweenBursts = 2f;
+//        public Vector2 spawnCheckSize = new Vector2(1f, 1f);
+//    }
+//    #endregion
+
+//    #region Spawn Settings
+//    [SerializeField] private SpawnEntry[] spawnEntries;
+//    [SerializeField] private Transform spawnPoint;
+//    [SerializeField] private float laneEndX = 10f;
+//    [SerializeField] private float moveSpeed = 2f;
+//    #endregion
+
+//    #region Clearance Check
+//    [SerializeField] private LayerMask laneItemsLayer;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        foreach (SpawnEntry entry in spawnEntries)
+//        {
+//            StartCoroutine(SpawnEntryLoop(entry));
+//        }
+//    }
+//    #endregion
+
+//    #region Spawning
+//    private IEnumerator SpawnEntryLoop(SpawnEntry entry)
+//    {
+//        while (true)
+//        {
+//            for (int i = 0; i < entry.obstaclesPerBurst; i++)
+//            {
+//                yield return StartCoroutine(WaitForClearSpawnPoint(entry.spawnCheckSize));
+//                SpawnObstacle(entry.pool);
+//                yield return new WaitForSeconds(entry.delayBetweenObstaclesInBurst);
+//            }
+
+//            yield return new WaitForSeconds(entry.gapBetweenBursts);
+//        }
+//    }
+
+//    private IEnumerator WaitForClearSpawnPoint(Vector2 checkSize)
+//    {
+//        while (Physics2D.OverlapBox(spawnPoint.position, checkSize, 0f, laneItemsLayer))
+//        {
+//            yield return null;
+//        }
+//    }
+
+//    private void SpawnObstacle(ObjectPool pool)
+//    {
+//        GameObject obstacle = pool.Get();
+//        obstacle.transform.position = spawnPoint.position;
+//        Physics2D.SyncTransforms();
+
+//        ObstacleMover mover = obstacle.GetComponent<ObstacleMover>();
+//        mover.Setup(moveSpeed, laneEndX, pool);
+//    }
+//    #endregion
+//}
+#endregion
+
+
+#region Phase 3 Sprint 1 - Obstacle Spawner (Independent Bursts, Collider-Checked Clearance) v6
 using System.Collections;
 using UnityEngine;
 
@@ -407,16 +559,18 @@ public class ObstacleSpawner : MonoBehaviour
     #region Unity Lifecycle
     private void Start()
     {
-        foreach (SpawnEntry entry in spawnEntries)
+        for (int i = 0; i < spawnEntries.Length; i++)
         {
-            StartCoroutine(SpawnEntryLoop(entry));
+            StartCoroutine(SpawnEntryLoop(spawnEntries[i], i));
         }
     }
     #endregion
 
     #region Spawning
-    private IEnumerator SpawnEntryLoop(SpawnEntry entry)
+    private IEnumerator SpawnEntryLoop(SpawnEntry entry, int entryIndex)
     {
+        yield return new WaitForSeconds(entryIndex * 0.1f);
+
         while (true)
         {
             for (int i = 0; i < entry.obstaclesPerBurst; i++)
@@ -442,6 +596,7 @@ public class ObstacleSpawner : MonoBehaviour
     {
         GameObject obstacle = pool.Get();
         obstacle.transform.position = spawnPoint.position;
+        Physics2D.SyncTransforms();
 
         ObstacleMover mover = obstacle.GetComponent<ObstacleMover>();
         mover.Setup(moveSpeed, laneEndX, pool);

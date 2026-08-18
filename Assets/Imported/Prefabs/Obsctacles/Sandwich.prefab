@@ -154,6 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Obstacle
   obstacleType: 1
   scorePenalty: 10
+  timePenaltySeconds: 20
 --- !u!114 &-5924220975978271066
 MonoBehaviour:
   m_ObjectHideFlags: 0

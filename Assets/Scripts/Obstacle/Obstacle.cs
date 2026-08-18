@@ -25,8 +25,48 @@
 
 
 #region Phase 2 Sprint 4 - Obstacle Types
+//using UnityEngine;
+
+//public class Obstacle : MonoBehaviour
+//{
+//    #region Obstacle Type
+//    public enum ObstacleType
+//    {
+//        Football,
+//        Sandwich,
+//        Flag
+//    }
+
+//    [SerializeField] private ObstacleType obstacleType;
+//    [SerializeField] private int scorePenalty;
+//    #endregion
+
+//    #region Collision Detection
+//    private void OnTriggerEnter2D(Collider2D other)
+//    {
+//        PlayerMovement player = other.GetComponent<PlayerMovement>();
+
+//        if (player == null) return;
+
+//        switch (obstacleType)
+//        {
+//            case ObstacleType.Football:
+//            case ObstacleType.Flag:
+//                player.HandleObstacleHit(scorePenalty);
+//                break;
+
+//            case ObstacleType.Sandwich:
+//                player.HandleSandwichHit(scorePenalty);
+//                break;
+//        }
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 3 - Obstacle Types + Time Penalty
 using UnityEngine;
- 
+
 public class Obstacle : MonoBehaviour
 {
     #region Obstacle Type
@@ -39,6 +79,7 @@ public class Obstacle : MonoBehaviour
 
     [SerializeField] private ObstacleType obstacleType;
     [SerializeField] private int scorePenalty;
+    [SerializeField] private float timePenaltySeconds;
     #endregion
 
     #region Collision Detection
@@ -56,7 +97,7 @@ public class Obstacle : MonoBehaviour
                 break;
 
             case ObstacleType.Sandwich:
-                player.HandleSandwichHit(scorePenalty);
+                player.HandleSandwichHit(timePenaltySeconds);
                 break;
         }
     }
