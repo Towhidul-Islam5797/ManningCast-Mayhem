@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 69f8fc5372c3b0d44be611520a2c19a9
+guid: d2733f3b2de867c459be9c028fe92704
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4133869659017042274
-    second: ManningCast Mayhem_Logo_072426_0
-  - first:
-      213: -2963760654851298251
-    second: ManningCast Mayhem_Logo_072426_1
+      213: 7097196524776464283
+    second: Black Couch overhead_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -155,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ManningCast Mayhem_Logo_072426_0
+      name: Black Couch overhead_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 272
-        width: 962
-        height: 106
+        x: 206
+        y: 168
+        width: 1124
+        height: 678
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,30 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 269d97d7d847e5930800000000000000
-      internalID: 4133869659017042274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManningCast Mayhem_Logo_072426_1
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 122
-        width: 578
-        height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53c2f48136b9ed6d0800000000000000
-      internalID: -2963760654851298251
+      spriteID: b9f107003ae4e7260800000000000000
+      internalID: 7097196524776464283
       vertices: []
       indices: 
       edges: []
@@ -212,8 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ManningCast Mayhem_Logo_072426_0: 4133869659017042274
-      ManningCast Mayhem_Logo_072426_1: -2963760654851298251
+      Black Couch overhead_0: 7097196524776464283
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

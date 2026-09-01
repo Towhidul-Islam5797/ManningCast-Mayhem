@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 69f8fc5372c3b0d44be611520a2c19a9
+guid: 5b2f3a1d25a9a8446b4c4981699b56f0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4133869659017042274
-    second: ManningCast Mayhem_Logo_072426_0
-  - first:
-      213: -2963760654851298251
-    second: ManningCast Mayhem_Logo_072426_1
+      213: 3310280255091716913
+    second: Billboard 3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ManningCast Mayhem_Logo_072426_0
+      name: Billboard 3_0
       rect:
         serializedVersion: 2
-        x: 94
-        y: 272
-        width: 962
-        height: 106
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,30 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 269d97d7d847e5930800000000000000
-      internalID: 4133869659017042274
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ManningCast Mayhem_Logo_072426_1
-      rect:
-        serializedVersion: 2
-        x: 286
-        y: 122
-        width: 578
-        height: 106
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 53c2f48136b9ed6d0800000000000000
-      internalID: -2963760654851298251
+      spriteID: 1333bb77a5a70fd20800000000000000
+      internalID: 3310280255091716913
       vertices: []
       indices: 
       edges: []
@@ -212,8 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ManningCast Mayhem_Logo_072426_0: 4133869659017042274
-      ManningCast Mayhem_Logo_072426_1: -2963760654851298251
+      Billboard 3_0: 3310280255091716913
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
