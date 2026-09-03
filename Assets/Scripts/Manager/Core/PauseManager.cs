@@ -1,105 +1,46 @@
-#region Summary
-/// PauseManager.cs
-/// This script manages the pause state of the game. It allows the player to pause and unpause the game using the Escape key. When the game is paused, 
-///     the time scale is set to 0, effectively freezing all gameplay, and a "Paused" text is displayed on the screen. When unpaused, the time scale is restored to 1, resuming normal gameplay.
-/// Note: This script assumes that there is a GameManager class with an IsGameOver property to check if the game is over, and a UI element (pausedText) to display when the game is paused.
-/// 
-#endregion
-
-#region Phase 1 Sprint 5 - Pause Functionality
-//using UnityEngine;
-//using UnityEngine.InputSystem;
-
-//public class PauseManager : MonoBehaviour
-//{
-//    #region Pause State
-//    public static bool IsPaused { get; private set; }
-//    #endregion
-
-//    #region UI Reference
-//    [SerializeField] private GameObject pausedText;
-//    #endregion
-
-//    #region Unity Lifecycle
-//    private void Awake()
-//    {
-//        IsPaused = false;
-//        Time.timeScale = 1f;
-//    }
-
-//    private void Update()
-//    {
-//        if (GameManager.Instance.IsGameOver) return;
-
-//        if (Keyboard.current.escapeKey.wasPressedThisFrame)
-//        {
-//            TogglePause();
-//        }
-//    }
-//    #endregion
-
-//    #region Pause Logic
-//    private void TogglePause()
-//    {
-//        IsPaused = !IsPaused;
-//        Time.timeScale = IsPaused ? 0f : 1f;
-//        pausedText.SetActive(IsPaused);
-//    }
-//    #endregion
-//}
-#endregion
-
-#region Phase 2 Sprint 8 - Pause Functionality
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PauseManager : MonoBehaviour
+/// <summary>Single pause authority shared by keyboard and the on-screen control.</summary>
+public sealed class PauseManager : MonoBehaviour
 {
-    #region Pause State
+    public static PauseManager Instance { get; private set; }
     public static bool IsPaused { get; private set; }
-    #endregion
+    public static event Action<bool> PauseChanged;
 
-    #region UI Reference
     [SerializeField] private GameObject settingsPanel;
-    #endregion
 
-    #region Unity Lifecycle
     private void Awake()
     {
-        IsPaused = false;
-        Time.timeScale = 1f;
+        Instance = this;
+        SetPaused(false);
+    }
+
+    private void OnDestroy()
+    {
+        if (Instance == this)
+        {
+            SetPaused(false);
+            Instance = null;
+        }
     }
 
     private void Update()
     {
-        if (GameManager.Instance.IsGameOver) return;
-
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
-        {
-            TogglePause();
-        }
+        if (GameManager.Instance != null && GameManager.Instance.IsGameOver) return;
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame) TogglePause();
     }
-    #endregion
 
-    #region Pause Logic
-    private void TogglePause()
+    public void TogglePause() => SetPaused(!IsPaused);
+    public void PauseGame() => SetPaused(true);
+    public void ResumeGame() => SetPaused(false);
+
+    private void SetPaused(bool paused)
     {
-        IsPaused = !IsPaused;
-        Time.timeScale = IsPaused ? 0f : 1f;
-        settingsPanel.SetActive(IsPaused);
+        IsPaused = paused;
+        Time.timeScale = paused ? 0f : 1f;
+        if (settingsPanel != null) settingsPanel.SetActive(paused);
+        PauseChanged?.Invoke(paused);
     }
-
-    public void PauseGame()
-    {
-        IsPaused = true;
-        Time.timeScale = 0f;
-    }
-
-    public void ResumeGame()
-    {
-        IsPaused = false;
-        Time.timeScale = 1f;
-    }
-    #endregion
 }
-#endregion

@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: e36b4ad0817b59e4aaf753d6494e515d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5747106382525259100
+    second: Peyton_Gameplay_Final_0
+  - first:
+      213: -2071265335034183448
+    second: Peyton_Gameplay_Final_1
+  - first:
+      213: 4537043659793701932
+    second: Peyton_Gameplay_Final_2
+  - first:
+      213: 6404883281000769269
+    second: Peyton_Gameplay_Final_3
+  - first:
+      213: -6890783770232548299
+    second: Peyton_Gameplay_Final_4
+  - first:
+      213: 4340222437645788526
+    second: Peyton_Gameplay_Final_5
+  - first:
+      213: -3144824479908827252
+    second: Peyton_Gameplay_Final_6
+  - first:
+      213: 8009367958651973356
+    second: Peyton_Gameplay_Final_7
+  - first:
+      213: -4120186013236728669
+    second: Peyton_Gameplay_Final_8
+  - first:
+      213: 3950567794869408146
+    second: Peyton_Gameplay_Final_9
+  - first:
+      213: 4760154887542463989
+    second: Peyton_Gameplay_Final_10
+  - first:
+      213: -6613436352508178014
+    second: Peyton_Gameplay_Final_11
+  - first:
+      213: 8062209133540673145
+    second: Peyton_Gameplay_Final_12
+  - first:
+      213: -2246413123659042382
+    second: Peyton_Gameplay_Final_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 822
+        width: 212
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2a33fc13d2e30b0800000000000000
+      internalID: -5747106382525259100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_1
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 823
+        width: 289
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e005bdd6236143e0800000000000000
+      internalID: -2071265335034183448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_2
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1144
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c11789b21d6fe30800000000000000
+      internalID: 4537043659793701932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_3
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 816
+        width: 224
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6a3e7d867b2e850800000000000000
+      internalID: 6404883281000769269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_4
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 822
+        width: 231
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534134f7ba40f50a0800000000000000
+      internalID: -6890783770232548299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_5
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 937
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65ae02cf419b3c30800000000000000
+      internalID: 4340222437645788526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_6
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 424
+        width: 218
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fe41a2cc65b54d0800000000000000
+      internalID: -3144824479908827252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_7
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 422
+        width: 268
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceea8d219bdf62f60800000000000000
+      internalID: 8009367958651973356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_8
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 432
+        width: 185
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aced7096a822d6c0800000000000000
+      internalID: -4120186013236728669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_9
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 27
+        width: 258
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2911a4a7a7c33d630800000000000000
+      internalID: 3950567794869408146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_10
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 432
+        width: 199
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fddecb56a77f0240800000000000000
+      internalID: 4760154887542463989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_11
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 29
+        width: 189
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a158184daa5834a0800000000000000
+      internalID: -6613436352508178014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_12
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 29
+        width: 331
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9760a95dd78b2ef60800000000000000
+      internalID: 8062209133540673145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Peyton_Gameplay_Final_13
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 29
+        width: 229
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1f6818a2323d0e0800000000000000
+      internalID: -2246413123659042382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Peyton_Gameplay_Final_0: -5747106382525259100
+      Peyton_Gameplay_Final_1: -2071265335034183448
+      Peyton_Gameplay_Final_10: 4760154887542463989
+      Peyton_Gameplay_Final_11: -6613436352508178014
+      Peyton_Gameplay_Final_12: 8062209133540673145
+      Peyton_Gameplay_Final_13: -2246413123659042382
+      Peyton_Gameplay_Final_2: 4537043659793701932
+      Peyton_Gameplay_Final_3: 6404883281000769269
+      Peyton_Gameplay_Final_4: -6890783770232548299
+      Peyton_Gameplay_Final_5: 4340222437645788526
+      Peyton_Gameplay_Final_6: -3144824479908827252
+      Peyton_Gameplay_Final_7: 8009367958651973356
+      Peyton_Gameplay_Final_8: -4120186013236728669
+      Peyton_Gameplay_Final_9: 3950567794869408146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

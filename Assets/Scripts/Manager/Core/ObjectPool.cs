@@ -24,6 +24,22 @@ public class ObjectPool : MonoBehaviour
     #region Unity Lifecycle
     private void Awake()
     {
+        // The revised client build uses ManningLaneDirector instead of the legacy
+        // prefab pools. This check must happen in Awake because scene objects wake
+        // before ManningRuntimeBootstrap receives SceneManager.sceneLoaded.
+        if (ManningRuntimeBootstrap.IsInstalled)
+        {
+            enabled = false;
+            return;
+        }
+
+        if (prefab == null)
+        {
+            Debug.LogWarning($"{name}: ObjectPool has no prefab and was disabled.", this);
+            enabled = false;
+            return;
+        }
+
         for (int i = 0; i < initialSize; i++)
         {
             GameObject instance = Instantiate(prefab, transform);

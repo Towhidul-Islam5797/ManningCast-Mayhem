@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: baf6baa3e3d0ba94fba3f111162ce6f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7399648493245821728
+    second: Eli_0
+  - first:
+      213: -4603193590555020713
+    second: Eli_1
+  - first:
+      213: -818994447385619283
+    second: Eli_2
+  - first:
+      213: 2173639536814245201
+    second: Eli_3
+  - first:
+      213: -721386845086835513
+    second: Eli_4
+  - first:
+      213: -5731942964644998011
+    second: Eli_5
+  - first:
+      213: -3733474099199233996
+    second: Eli_6
+  - first:
+      213: -1606077307059817639
+    second: Eli_7
+  - first:
+      213: -8862656995140127427
+    second: Eli_8
+  - first:
+      213: 3553748735324373447
+    second: Eli_9
+  - first:
+      213: 220802685380688427
+    second: Eli_10
+  - first:
+      213: 7699599269315773246
+    second: Eli_11
+  - first:
+      213: -4636336068131024685
+    second: Eli_12
+  - first:
+      213: 4297436893553246685
+    second: Eli_13
+  - first:
+      213: -3361358319767761415
+    second: Eli_14
+  - first:
+      213: 4316190247367370034
+    second: Eli_15
+  - first:
+      213: 99198784966138018
+    second: Eli_16
+  - first:
+      213: 5115517870773004705
+    second: Eli_17
+  - first:
+      213: 100236897078710198
+    second: Eli_18
+  - first:
+      213: 2302919258767434425
+    second: Eli_19
+  - first:
+      213: 3191166492075998054
+    second: Eli_20
+  - first:
+      213: -2683614312532877650
+    second: Eli_21
+  - first:
+      213: -8679440357152456763
+    second: Eli_22
+  - first:
+      213: -7637756737386394796
+    second: Eli_23
+  - first:
+      213: -4636383828554847331
+    second: Eli_24
+  - first:
+      213: -8015735009214476663
+    second: Eli_25
+  - first:
+      213: 4493326012147434545
+    second: Eli_26
+  - first:
+      213: 835301885433666728
+    second: Eli_27
+  - first:
+      213: 6616503351989146757
+    second: Eli_28
+  - first:
+      213: 6391933324255960522
+    second: Eli_29
+  - first:
+      213: 3781890282136998853
+    second: Eli_30
+  - first:
+      213: 4427245381296343583
+    second: Eli_31
+  - first:
+      213: 108573476011808607
+    second: Eli_32
+  - first:
+      213: -5009918874307371236
+    second: Eli_33
+  - first:
+      213: -8266499136125705000
+    second: Eli_34
+  - first:
+      213: 3990894845966684313
+    second: Eli_35
+  - first:
+      213: -7258198993360972381
+    second: Eli_36
+  - first:
+      213: -3002404415119501759
+    second: Eli_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eli_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 832
+        width: 253
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023fbae7915d0b660800000000000000
+      internalID: 7399648493245821728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 833
+        width: 254
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752fc9271db2e10c0800000000000000
+      internalID: -4603193590555020713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1148
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4109aa3e852a4f0800000000000000
+      internalID: -818994447385619283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1178
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155ce8d64a15a2e10800000000000000
+      internalID: 2173639536814245201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_4
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc95f88c7e1df5f0800000000000000
+      internalID: -721386845086835513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 826
+        width: 234
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58419872e3c0470b0800000000000000
+      internalID: -5731942964644998011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_6
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 834
+        width: 225
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430bb1b6619003cc0800000000000000
+      internalID: -3733474099199233996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1085
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95332e6d23116b9e0800000000000000
+      internalID: -1606077307059817639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_8
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1159
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35ba865b64810580800000000000000
+      internalID: -8862656995140127427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1138
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1c00e65a3715130800000000000000
+      internalID: 3553748735324373447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_10
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1085
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a719b5fd2701300800000000000000
+      internalID: 220802685380688427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1125
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e338c60cdb87ada60800000000000000
+      internalID: 7699599269315773246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_12
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1127
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d018bf09ec68afb0800000000000000
+      internalID: -4636336068131024685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1087
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd146ecf51093ab30800000000000000
+      internalID: 4297436893553246685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1115
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd407bda6e0a51d0800000000000000
+      internalID: -3361358319767761415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1095
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235665d692036eb30800000000000000
+      internalID: 4316190247367370034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a89e04f4cc606100800000000000000
+      internalID: 99198784966138018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_17
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 955
+        width: 60
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a966997668fdf640800000000000000
+      internalID: 5115517870773004705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1095
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf83c34dec146100800000000000000
+      internalID: 100236897078710198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1059
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b22d3d4ddc95ff10800000000000000
+      internalID: 2302919258767434425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_20
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1086
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66bb15b540d494c20800000000000000
+      internalID: 3191166492075998054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1067
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaed25b4003e1cad0800000000000000
+      internalID: -2683614312532877650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_22
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1069
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cffcb61bfe6c8780800000000000000
+      internalID: -8679440357152456763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1002
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bcc33c6bc310690800000000000000
+      internalID: -7637756737386394796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 949
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b6f98f87148afb0800000000000000
+      internalID: -4636383828554847331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_25
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 923
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ecb127a7362c090800000000000000
+      internalID: -8015735009214476663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_26
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 776
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134021e83308b5e30800000000000000
+      internalID: 4493326012147434545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_27
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 870
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acdc71a3a6979b00800000000000000
+      internalID: 835301885433666728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 425
+        width: 263
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5849e7e2eba82db50800000000000000
+      internalID: 6616503351989146757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 637
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd12441e75b4b850800000000000000
+      internalID: 6391933324255960522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_30
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 427
+        width: 301
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3174e9c29fb7430800000000000000
+      internalID: 3781890282136998853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_31
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 395
+        width: 259
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a48adb73cb07d30800000000000000
+      internalID: 4427245381296343583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_32
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 23
+        width: 329
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5796bd400bb18100800000000000000
+      internalID: 108573476011808607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 235
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f5267d351397ab0800000000000000
+      internalID: -5009918874307371236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 37
+        width: 345
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4672f55de774d80800000000000000
+      internalID: -8266499136125705000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_35
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 47
+        width: 183
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99018cdb7b1826730800000000000000
+      internalID: 3990894845966684313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_36
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a51f9b9872b54b90800000000000000
+      internalID: -7258198993360972381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_37
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146dcb487115556d0800000000000000
+      internalID: -3002404415119501759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Eli_0: 7399648493245821728
+      Eli_1: -4603193590555020713
+      Eli_10: 220802685380688427
+      Eli_11: 7699599269315773246
+      Eli_12: -4636336068131024685
+      Eli_13: 4297436893553246685
+      Eli_14: -3361358319767761415
+      Eli_15: 4316190247367370034
+      Eli_16: 99198784966138018
+      Eli_17: 5115517870773004705
+      Eli_18: 100236897078710198
+      Eli_19: 2302919258767434425
+      Eli_2: -818994447385619283
+      Eli_20: 3191166492075998054
+      Eli_21: -2683614312532877650
+      Eli_22: -8679440357152456763
+      Eli_23: -7637756737386394796
+      Eli_24: -4636383828554847331
+      Eli_25: -8015735009214476663
+      Eli_26: 4493326012147434545
+      Eli_27: 835301885433666728
+      Eli_28: 6616503351989146757
+      Eli_29: 6391933324255960522
+      Eli_3: 2173639536814245201
+      Eli_30: 3781890282136998853
+      Eli_31: 4427245381296343583
+      Eli_32: 108573476011808607
+      Eli_33: -5009918874307371236
+      Eli_34: -8266499136125705000
+      Eli_35: 3990894845966684313
+      Eli_36: -7258198993360972381
+      Eli_37: -3002404415119501759
+      Eli_4: -721386845086835513
+      Eli_5: -5731942964644998011
+      Eli_6: -3733474099199233996
+      Eli_7: -1606077307059817639
+      Eli_8: -8862656995140127427
+      Eli_9: 3553748735324373447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

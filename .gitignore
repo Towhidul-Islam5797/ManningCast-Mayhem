@@ -105,3 +105,12 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Local temporary, backup, and editor files
+.kilo/
+tmp/
+Backup/
+UpgradeLog.htm
+*.slnx
+.DS_Store
+__MACOSX/

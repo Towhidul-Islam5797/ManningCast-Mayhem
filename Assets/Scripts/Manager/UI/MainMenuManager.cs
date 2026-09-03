@@ -78,6 +78,7 @@ public class MainMenuManager : MonoBehaviour
 
     #region Panel References
     [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private GameObject rulesPanel;
     #endregion
 
     #region Unity Lifecycle
@@ -86,6 +87,11 @@ public class MainMenuManager : MonoBehaviour
         if (settingsPanel != null)
         {
             settingsPanel.SetActive(false);
+        }
+
+        if (rulesPanel != null)
+        {
+            rulesPanel.SetActive(false);
         }
     }
     #endregion
@@ -103,12 +109,40 @@ public class MainMenuManager : MonoBehaviour
 
     public void SettingsPanel()
     {
-        settingsPanel.SetActive(true);
+        if (settingsPanel != null)
+        {
+            settingsPanel.SetActive(true);
+        }
+    }
+
+    public void RulesPanel()
+    {
+        if (rulesPanel != null)
+        {
+            rulesPanel.SetActive(true);
+        }
+    }
+
+    public void ClosePanels()
+    {
+        if (settingsPanel != null)
+        {
+            settingsPanel.SetActive(false);
+        }
+
+        if (rulesPanel != null)
+        {
+            rulesPanel.SetActive(false);
+        }
     }
 
     public void QuitGame()
     {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
     }
 
     public void BackToMainMenu()

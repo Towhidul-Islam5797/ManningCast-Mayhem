@@ -1,0 +1,1144 @@
+fileFormatVersion: 2
+guid: 6791055767cef33448ec4fbc320622f1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4597913413305843076
+    second: Eli_Gameplay_Final_0
+  - first:
+      213: 600979286875111622
+    second: Eli_Gameplay_Final_1
+  - first:
+      213: 8938446776941581604
+    second: Eli_Gameplay_Final_2
+  - first:
+      213: 703313265044875768
+    second: Eli_Gameplay_Final_3
+  - first:
+      213: -337148729532307423
+    second: Eli_Gameplay_Final_4
+  - first:
+      213: -1145989408677612875
+    second: Eli_Gameplay_Final_5
+  - first:
+      213: -3113614595368513887
+    second: Eli_Gameplay_Final_6
+  - first:
+      213: 7118143920281533745
+    second: Eli_Gameplay_Final_7
+  - first:
+      213: 4853368510650941257
+    second: Eli_Gameplay_Final_8
+  - first:
+      213: -6393767185331309947
+    second: Eli_Gameplay_Final_9
+  - first:
+      213: -8780173316896066526
+    second: Eli_Gameplay_Final_10
+  - first:
+      213: -2062540287901794475
+    second: Eli_Gameplay_Final_11
+  - first:
+      213: 7994404009669648147
+    second: Eli_Gameplay_Final_12
+  - first:
+      213: -7239111394184594567
+    second: Eli_Gameplay_Final_13
+  - first:
+      213: -8652657185651639422
+    second: Eli_Gameplay_Final_14
+  - first:
+      213: 4167818267000252987
+    second: Eli_Gameplay_Final_15
+  - first:
+      213: 6262352272217566936
+    second: Eli_Gameplay_Final_16
+  - first:
+      213: 9176272362904825563
+    second: Eli_Gameplay_Final_17
+  - first:
+      213: 765439374446180915
+    second: Eli_Gameplay_Final_18
+  - first:
+      213: -8631822086880213452
+    second: Eli_Gameplay_Final_19
+  - first:
+      213: 8013438101431274994
+    second: Eli_Gameplay_Final_20
+  - first:
+      213: -8325533412003151773
+    second: Eli_Gameplay_Final_21
+  - first:
+      213: 4105422038233779718
+    second: Eli_Gameplay_Final_22
+  - first:
+      213: -5113914143772274838
+    second: Eli_Gameplay_Final_23
+  - first:
+      213: -8359948149371470638
+    second: Eli_Gameplay_Final_24
+  - first:
+      213: -3904372834471853297
+    second: Eli_Gameplay_Final_25
+  - first:
+      213: 1561208531746087974
+    second: Eli_Gameplay_Final_26
+  - first:
+      213: 3148496269836926510
+    second: Eli_Gameplay_Final_27
+  - first:
+      213: 9153749826718310178
+    second: Eli_Gameplay_Final_28
+  - first:
+      213: 7110702734692563086
+    second: Eli_Gameplay_Final_29
+  - first:
+      213: 418314589037554091
+    second: Eli_Gameplay_Final_30
+  - first:
+      213: -1639066832388063045
+    second: Eli_Gameplay_Final_31
+  - first:
+      213: -9008153458652145107
+    second: Eli_Gameplay_Final_32
+  - first:
+      213: -7660784555887525388
+    second: Eli_Gameplay_Final_33
+  - first:
+      213: -129475896340559926
+    second: Eli_Gameplay_Final_34
+  - first:
+      213: -1332967676972525716
+    second: Eli_Gameplay_Final_35
+  - first:
+      213: -591629573561622175
+    second: Eli_Gameplay_Final_36
+  - first:
+      213: 6587695947119351352
+    second: Eli_Gameplay_Final_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 832
+        width: 253
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d391c73e11fcf30800000000000000
+      internalID: 4597913413305843076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 833
+        width: 254
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c00f8f2a7b175800800000000000000
+      internalID: 600979286875111622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_2
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1148
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42596575cfdbb0c70800000000000000
+      internalID: 8938446776941581604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_3
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1178
+        width: 42
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9e1d030bba2c900800000000000000
+      internalID: 703313265044875768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_4
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1182
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128a0cb4405325bf0800000000000000
+      internalID: -337148729532307423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_5
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 826
+        width: 234
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2396b54b0a810f0800000000000000
+      internalID: -1145989408677612875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_6
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 834
+        width: 225
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae869ba5083ac4d0800000000000000
+      internalID: -3113614595368513887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_7
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 1085
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dbc749e2ab8c260800000000000000
+      internalID: 7118143920281533745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_8
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1159
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f7a6932f0aa5340800000000000000
+      internalID: 4853368510650941257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1138
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58237cdde96c447a0800000000000000
+      internalID: -6393767185331309947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_10
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 1085
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224fb0c33ee862680800000000000000
+      internalID: -8780173316896066526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_11
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1125
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f7ea439826063e0800000000000000
+      internalID: -2062540287901794475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_12
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1127
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f51533714d1fe60800000000000000
+      internalID: 7994404009669648147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_13
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1087
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97bf42c9a82898b90800000000000000
+      internalID: -7239111394184594567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_14
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1115
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bb00622269be780800000000000000
+      internalID: -8652657185651639422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1095
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a2fecb1a017d930800000000000000
+      internalID: 4167818267000252987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_16
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 1107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de63e3563858e650800000000000000
+      internalID: 6262352272217566936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_17
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 955
+        width: 60
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde2d29981ba85f70800000000000000
+      internalID: 9176272362904825563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_18
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1095
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a36fa3e036f9a00800000000000000
+      internalID: 765439374446180915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 1059
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436422b9b8b953880800000000000000
+      internalID: -8631822086880213452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_20
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 1086
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fd44690f73753f60800000000000000
+      internalID: 8013438101431274994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 1067
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36008ebe873c57c80800000000000000
+      internalID: -8325533412003151773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_22
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 1069
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e0cf1a79369f830800000000000000
+      internalID: 4105422038233779718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_23
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1002
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f8b905e2ab709b0800000000000000
+      internalID: -5113914143772274838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_24
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 949
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7708737f7bfb80800000000000000
+      internalID: -8359948149371470638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_25
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 923
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03ce92e791e0d9c0800000000000000
+      internalID: -3904372834471853297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_26
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 776
+        width: 52
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624e80353e68aa510800000000000000
+      internalID: 1561208531746087974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_27
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 870
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2eb54c0da4b1bb20800000000000000
+      internalID: 3148496269836926510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_28
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 425
+        width: 263
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f965008f6a80f70800000000000000
+      internalID: 9153749826718310178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 637
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88bfbc867a4ea260800000000000000
+      internalID: 7110702734692563086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_30
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 427
+        width: 301
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba962f307e62ec500800000000000000
+      internalID: 418314589037554091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_31
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 395
+        width: 259
+        height: 427
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0826c666dd049e0800000000000000
+      internalID: -1639066832388063045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_32
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 23
+        width: 329
+        height: 799
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a15d6182c9cf280800000000000000
+      internalID: -9008153458652145107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_33
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 47
+        width: 235
+        height: 357
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f18685f80d6fa590800000000000000
+      internalID: -7660784555887525388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_34
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 37
+        width: 345
+        height: 368
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac745a7bb52043ef0800000000000000
+      internalID: -129475896340559926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_35
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 47
+        width: 183
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6799fcc5f8508de0800000000000000
+      internalID: -1332967676972525716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_36
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 366
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1616e35990c1ac7f0800000000000000
+      internalID: -591629573561622175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli_Gameplay_Final_37
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83654509f823c6b50800000000000000
+      internalID: 6587695947119351352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Eli_Gameplay_Final_0: 4597913413305843076
+      Eli_Gameplay_Final_1: 600979286875111622
+      Eli_Gameplay_Final_10: -8780173316896066526
+      Eli_Gameplay_Final_11: -2062540287901794475
+      Eli_Gameplay_Final_12: 7994404009669648147
+      Eli_Gameplay_Final_13: -7239111394184594567
+      Eli_Gameplay_Final_14: -8652657185651639422
+      Eli_Gameplay_Final_15: 4167818267000252987
+      Eli_Gameplay_Final_16: 6262352272217566936
+      Eli_Gameplay_Final_17: 9176272362904825563
+      Eli_Gameplay_Final_18: 765439374446180915
+      Eli_Gameplay_Final_19: -8631822086880213452
+      Eli_Gameplay_Final_2: 8938446776941581604
+      Eli_Gameplay_Final_20: 8013438101431274994
+      Eli_Gameplay_Final_21: -8325533412003151773
+      Eli_Gameplay_Final_22: 4105422038233779718
+      Eli_Gameplay_Final_23: -5113914143772274838
+      Eli_Gameplay_Final_24: -8359948149371470638
+      Eli_Gameplay_Final_25: -3904372834471853297
+      Eli_Gameplay_Final_26: 1561208531746087974
+      Eli_Gameplay_Final_27: 3148496269836926510
+      Eli_Gameplay_Final_28: 9153749826718310178
+      Eli_Gameplay_Final_29: 7110702734692563086
+      Eli_Gameplay_Final_3: 703313265044875768
+      Eli_Gameplay_Final_30: 418314589037554091
+      Eli_Gameplay_Final_31: -1639066832388063045
+      Eli_Gameplay_Final_32: -9008153458652145107
+      Eli_Gameplay_Final_33: -7660784555887525388
+      Eli_Gameplay_Final_34: -129475896340559926
+      Eli_Gameplay_Final_35: -1332967676972525716
+      Eli_Gameplay_Final_36: -591629573561622175
+      Eli_Gameplay_Final_37: 6587695947119351352
+      Eli_Gameplay_Final_4: -337148729532307423
+      Eli_Gameplay_Final_5: -1145989408677612875
+      Eli_Gameplay_Final_6: -3113614595368513887
+      Eli_Gameplay_Final_7: 7118143920281533745
+      Eli_Gameplay_Final_8: 4853368510650941257
+      Eli_Gameplay_Final_9: -6393767185331309947
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
