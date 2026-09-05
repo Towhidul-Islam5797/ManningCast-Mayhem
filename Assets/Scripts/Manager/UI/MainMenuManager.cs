@@ -65,7 +65,7 @@
 
 #endregion
 
-#region Phase 2 Sprint 8 - Main Menu + Restart Game
+#region Phase 3 Sprint 4 - Main Menu + Player Entry Panel
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -78,6 +78,7 @@ public class MainMenuManager : MonoBehaviour
 
     #region Panel References
     [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private GameObject loginPanel;
     #endregion
 
     #region Unity Lifecycle
@@ -87,13 +88,25 @@ public class MainMenuManager : MonoBehaviour
         {
             settingsPanel.SetActive(false);
         }
+
+        if (loginPanel != null)
+        {
+            loginPanel.SetActive(false);
+        }
     }
     #endregion
 
     #region Button Actions
     public void PlayGame()
     {
-        SceneManager.LoadScene(characterSelectSceneName);
+        if (loginPanel != null)
+        {
+            loginPanel.SetActive(true);
+        }
+        else
+        {
+            SceneManager.LoadScene(characterSelectSceneName);
+        }
     }
 
     public void RestartGame()

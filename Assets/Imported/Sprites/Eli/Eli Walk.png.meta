@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -170,12 +170,12 @@ TextureImporter:
       name: Eli Walk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 11
         y: 767
-        width: 261
+        width: 106
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -189,15 +189,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eli Walk_1
+      name: Eli Walk_2
       rect:
         serializedVersion: 2
-        x: 258
+        x: 269
         y: 767
-        width: 261
+        width: 107
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -211,15 +211,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eli Walk_2
+      name: Eli Walk_4
       rect:
         serializedVersion: 2
-        x: 508
+        x: 515
         y: 767
-        width: 516
+        width: 124
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -233,15 +233,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eli Walk_3
+      name: Eli Walk_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 511
-        width: 254
+        x: 7
+        y: 510
+        width: 116
         height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -255,15 +255,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eli Walk_4
+      name: Eli Walk_10
       rect:
         serializedVersion: 2
-        x: 254
-        y: 510
+        x: 255
+        y: 511
         width: 119
         height: 233
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,15 +277,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Eli Walk_5
+      name: Eli Walk_11
       rect:
         serializedVersion: 2
-        x: 383
-        y: 503
-        width: 641
-        height: 240
+        x: 389
+        y: 511
+        width: 121
+        height: 232
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,11 +298,231 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Eli Walk_1
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 767
+        width: 120
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d95d74aff9a1b49b7e11159155091f
+      internalID: 1587252704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 766
+        width: 121
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e369c1125aa565b42bbe8dba211cc6af
+      internalID: -677082621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_5
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 767
+        width: 124
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db86ef2e09ef0104e8d51ed2acc655bc
+      internalID: -527020043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_6
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 767
+        width: 124
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264cca91b1b09aa4cb2fb91f85a6795d
+      internalID: 157923781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 767
+        width: 124
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94835fe65ce84484891e8e86e3bdba1b
+      internalID: -170933834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 511
+        width: 124
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6eb2b3cb63f0f7488fc20b9418e9840
+      internalID: 466578515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_12
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 510
+        width: 121
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d837f63a694052548879b938b71f8a2e
+      internalID: -625283836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_13
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 511
+        width: 122
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52d56aacf58fad4599be16ea79f4bd1
+      internalID: 847622877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_14
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 512
+        width: 122
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013144f46cdc80145b7fe48a11e0e3d9
+      internalID: -188246466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Eli Walk_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 512
+        width: 124
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0b39ced2191ea4e9ffd00d1e5a7314
+      internalID: -909983240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4855cb4a38a6e3b4ea75921878589c31
     internalID: 0
     vertices: []
     indices: 
@@ -313,11 +533,23 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Eli Walk_0: 9014916902117004811
-      Eli Walk_1: 2801261679411098534
-      Eli Walk_2: 5891503965497171601
-      Eli Walk_3: 8805211263698254828
-      Eli Walk_4: -5187894501799855914
-      Eli Walk_5: -5254899566686472052
+      Eli Walk_1: 1587252704
+      Eli Walk_10: -5187894501799855914
+      Eli Walk_11: -5254899566686472052
+      Eli Walk_12: -625283836
+      Eli Walk_13: 847622877
+      Eli Walk_14: -188246466
+      Eli Walk_15: -909983240
+      Eli Walk_16: -475956383
+      Eli Walk_17: -1250199287
+      Eli Walk_2: 2801261679411098534
+      Eli Walk_3: -677082621
+      Eli Walk_4: 5891503965497171601
+      Eli Walk_5: -527020043
+      Eli Walk_6: 157923781
+      Eli Walk_7: -170933834
+      Eli Walk_8: 8805211263698254828
+      Eli Walk_9: 466578515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4907,7 +4907,7 @@ Animator:
   m_GameObject: {fileID: 638429874}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3fbab9be98739b49904da801c47ca49, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -8636,6 +8636,7 @@ MonoBehaviour:
   mainMenuSceneName: MainMenu
   characterSelectSceneName: CharacterSelectScene
   settingsPanel: {fileID: 903510379}
+  loginPanel: {fileID: 0}
 --- !u!1 &1552098445
 GameObject:
   m_ObjectHideFlags: 0
