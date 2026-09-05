@@ -108,7 +108,6 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static System.Net.Mime.MediaTypeNames;
 
 public class HUDManager : MonoBehaviour
 {
@@ -124,8 +123,8 @@ public class HUDManager : MonoBehaviour
     #region UI References
     [SerializeField] private TMP_Text scoreText;
     [SerializeField] private TMP_Text timeText;
-    [SerializeField] private UnityEngine.UI.Image[] heartIcons;
-    [SerializeField] private UnityEngine.UI.Image[] footballIcons;
+    [SerializeField] private Image[] heartIcons;
+    [SerializeField] private Image[] footballIcons;
     #endregion
 
     #region Unity Lifecycle
