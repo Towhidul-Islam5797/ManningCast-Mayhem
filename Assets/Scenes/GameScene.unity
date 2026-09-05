@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: ccb8c1e2e98994049b4d0e0a6cf980e6, type: 3}
-  initialSize: 60
+  initialSize: 50
 --- !u!4 &6141078
 Transform:
   m_ObjectHideFlags: 0
@@ -4915,7 +4915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: 0f2d8b0f5b381e942b95685e75b9d203, type: 3}
-  initialSize: 60
+  initialSize: 50
 --- !u!1 &571461342
 GameObject:
   m_ObjectHideFlags: 0
@@ -5127,7 +5127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: 8d57f030031ce314ea8645542af5b406, type: 3}
-  initialSize: 60
+  initialSize: 50
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -8131,7 +8131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: 0d47050319915c04fb5f151acb780808, type: 3}
-  initialSize: 60
+  initialSize: 50
 --- !u!1 &1360646466
 GameObject:
   m_ObjectHideFlags: 0
@@ -8863,7 +8863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: b3b59cca557b73245a4e0ebd55831e15, type: 3}
-  initialSize: 60
+  initialSize: 50
 --- !u!4 &1474015822
 Transform:
   m_ObjectHideFlags: 0
@@ -10030,7 +10030,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: d9dc3a0976c4e1043a518123f0d50059, type: 3}
-  initialSize: 60
+  initialSize: 50
 --- !u!4 &1780764176
 Transform:
   m_ObjectHideFlags: 0
@@ -10335,7 +10335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: dc8fcdb4ed06417449a5de0843849d73, type: 3}
-  initialSize: 60
+  initialSize: 50
 --- !u!4 &1844992088
 Transform:
   m_ObjectHideFlags: 0
