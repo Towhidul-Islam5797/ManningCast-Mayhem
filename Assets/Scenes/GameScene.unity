@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: ccb8c1e2e98994049b4d0e0a6cf980e6, type: 3}
-  initialSize: 80
+  initialSize: 60
 --- !u!4 &6141078
 Transform:
   m_ObjectHideFlags: 0
@@ -196,6 +196,7 @@ Transform:
   m_Children:
   - {fileID: 1844992088}
   - {fileID: 1474015822}
+  - {fileID: 1534644839}
   - {fileID: 586442401}
   - {fileID: 1780764176}
   - {fileID: 6141078}
@@ -979,7 +980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &245206322
 RectTransform:
   m_ObjectHideFlags: 0
@@ -994,9 +995,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 634396934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 189.16667, y: -25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &245206323
@@ -1054,7 +1055,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &260486944
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1069,9 +1070,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 634396934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 32.5, y: -25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &260486945
@@ -1499,6 +1500,10 @@ MonoBehaviour:
   - {fileID: 1360646468}
   - {fileID: 2078514379}
   - {fileID: 288793207}
+  footballIcons:
+  - {fileID: 260486945}
+  - {fileID: 1432260998}
+  - {fileID: 245206323}
 --- !u!1 &372657016
 GameObject:
   m_ObjectHideFlags: 0
@@ -4712,6 +4717,11 @@ MonoBehaviour:
     delayBetweenObstaclesInBurst: 0
     gapBetweenBursts: 3
     spawnCheckSize: {x: 1, y: 1}
+  - pool: {fileID: 1534644840}
+    obstaclesPerBurst: 2
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 3
+    spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 241447959}
   laneEndX: -10
   moveSpeed: -2.5
@@ -5069,7 +5079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: 8d57f030031ce314ea8645542af5b406, type: 3}
-  initialSize: 80
+  initialSize: 60
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -5495,6 +5505,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   hazardScorePenalty: 0
+  thrownFootballPrefab: {fileID: -4735464206436565034, guid: 5b2aac701733abb45a516efd354c84b5, type: 3}
+  throwSpeed: 8
 --- !u!212 &638429880
 SpriteRenderer:
   serializedVersion: 2
@@ -6660,6 +6672,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   hazardScorePenalty: 0
+  thrownFootballPrefab: {fileID: -4735464206436565034, guid: 5b2aac701733abb45a516efd354c84b5, type: 3}
+  throwSpeed: 8
 --- !u!95 &932571689
 Animator:
   serializedVersion: 7
@@ -8063,6 +8077,11 @@ MonoBehaviour:
     delayBetweenObstaclesInBurst: 0
     gapBetweenBursts: 2
     spawnCheckSize: {x: 1, y: 1}
+  - pool: {fileID: 1534644840}
+    obstaclesPerBurst: 2
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 2
+    spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 1425885495}
   laneEndX: 10
   moveSpeed: 2
@@ -8405,7 +8424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1432260997
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8420,9 +8439,9 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 634396934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 110.833336, y: -25}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 65, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1432260998
@@ -8664,7 +8683,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: b3b59cca557b73245a4e0ebd55831e15, type: 3}
-  initialSize: 80
+  initialSize: 60
 --- !u!4 &1474015822
 Transform:
   m_ObjectHideFlags: 0
@@ -8824,6 +8843,7 @@ MonoBehaviour:
   parTime: 60
   scorePenaltyPerSecondOverPar: 1
   scorePenaltyPerLifeLost: 50
+  maxFootballCharges: 3
 --- !u!114 &1527187041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8883,6 +8903,52 @@ MonoBehaviour:
   characterSelectSceneName: CharacterSelectScene
   settingsPanel: {fileID: 903510379}
   loginPanel: {fileID: 0}
+--- !u!1 &1534644838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1534644839}
+  - component: {fileID: 1534644840}
+  m_Layer: 0
+  m_Name: CollectPool_FootballPickup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1534644839
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534644838}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59464922}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1534644840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1534644838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae34c890e82738a44a0aab95f3734aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  prefab: {fileID: 6587168629660412565, guid: 69aa60c14f93e354c81f8a1385ffd2c5, type: 3}
+  initialSize: 10
 --- !u!1 &1552098445
 GameObject:
   m_ObjectHideFlags: 0
@@ -9751,7 +9817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: d9dc3a0976c4e1043a518123f0d50059, type: 3}
-  initialSize: 80
+  initialSize: 60
 --- !u!4 &1780764176
 Transform:
   m_ObjectHideFlags: 0
@@ -10056,7 +10122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: dc8fcdb4ed06417449a5de0843849d73, type: 3}
-  initialSize: 80
+  initialSize: 60
 --- !u!4 &1844992088
 Transform:
   m_ObjectHideFlags: 0
@@ -10657,6 +10723,11 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 1780764175}
     obstaclesPerBurst: 4
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 2
+    spawnCheckSize: {x: 1, y: 1}
+  - pool: {fileID: 1534644840}
+    obstaclesPerBurst: 2
     delayBetweenObstaclesInBurst: 0
     gapBetweenBursts: 2
     spawnCheckSize: {x: 1, y: 1}

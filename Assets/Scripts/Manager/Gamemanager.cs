@@ -685,7 +685,6 @@
 #endregion
 
 #region Phase 3 Sprint 3 - GameManager Implementation with Score and Lives, Elapsed Time, and Time Penalty for Sandwich
-using System.Diagnostics;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
