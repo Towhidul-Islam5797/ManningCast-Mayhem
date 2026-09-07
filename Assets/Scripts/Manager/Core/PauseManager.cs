@@ -52,6 +52,7 @@
 #region Phase 2 Sprint 8 - Pause Functionality
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PauseManager : MonoBehaviour
 {
@@ -61,6 +62,7 @@ public class PauseManager : MonoBehaviour
 
     #region UI Reference
     [SerializeField] private GameObject settingsPanel;
+    [SerializeField] private string MainMenu = "MainMenu";
     #endregion
 
     #region Unity Lifecycle
@@ -99,6 +101,11 @@ public class PauseManager : MonoBehaviour
     {
         IsPaused = false;
         Time.timeScale = 1f;
+    }
+    public void BackToMainMenu()
+    {
+        
+        SceneManager.LoadScene(MainMenu);
     }
     #endregion
 }

@@ -17,6 +17,7 @@ public class CharacterSelectManager : MonoBehaviour
 {
     #region Scene Settings
     [SerializeField] private string mainSceneName;
+    [SerializeField] private string mainMenuName;
     #endregion
 
     #region Selection Handlers
@@ -30,6 +31,10 @@ public class CharacterSelectManager : MonoBehaviour
     {
         CharacterSelection.SelectedCharacter = CharacterSelection.Character.Eli;
         SceneManager.LoadScene(mainSceneName);
+    }
+    public void Back()
+    {
+        SceneManager.LoadScene(mainMenuName);
     }
     #endregion
 }
