@@ -62,7 +62,7 @@ public class PauseManager : MonoBehaviour
 
     #region UI Reference
     [SerializeField] private GameObject settingsPanel;
-    [SerializeField] private string MainMenu = "MainMenu";
+    [SerializeField] private string mainMenuName = "MainMenu";
     #endregion
 
     #region Unity Lifecycle
@@ -105,7 +105,7 @@ public class PauseManager : MonoBehaviour
     public void BackToMainMenu()
     {
         
-        SceneManager.LoadScene(MainMenu);
+        SceneManager.LoadScene(mainMenuName);
     }
     #endregion
 }
