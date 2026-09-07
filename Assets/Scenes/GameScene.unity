@@ -5524,7 +5524,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.77804875, y: 1.8804878}
+    oldSize: {x: 1.27, y: 2.35}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5604,7 +5604,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -6278116837404553488, guid: 81016bb60c34d884ab64459e646fe39e, type: 3}
+  m_Sprite: {fileID: -1234638255, guid: e3d3f9a885477344b8304e4d25715bc1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8071,12 +8071,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   spawnEntries:
   - pool: {fileID: 570958512}
-    obstaclesPerBurst: 2
+    obstaclesPerBurst: 1
     delayBetweenObstaclesInBurst: 0
     gapBetweenBursts: 3
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 1302977159}
-    obstaclesPerBurst: 2
+    obstaclesPerBurst: 1
     delayBetweenObstaclesInBurst: 0
     gapBetweenBursts: 3
     spawnCheckSize: {x: 1, y: 1}
@@ -9023,6 +9023,7 @@ MonoBehaviour:
   parTime: 60
   scorePenaltyPerSecondOverPar: 1
   scorePenaltyPerLifeLost: 50
+  timeLimit: 90
   maxFootballCharges: 3
 --- !u!114 &1527187041
 MonoBehaviour:
