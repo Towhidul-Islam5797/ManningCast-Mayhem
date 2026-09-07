@@ -1732,6 +1732,8 @@ public class PlayerMovement : MonoBehaviour
     #region Throw Handling
     public void OnInteractPerformed(InputAction.CallbackContext context)
     {
+        Debug.Log("OnInteractPerformed called at " + Time.time);
+
         if (!GameManager.Instance.SpendFootball()) return;
 
         ThrownFootball thrown = Instantiate(thrownFootballPrefab, transform.position, Quaternion.identity);
