@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 3b06a7052abd03c4f9836233281f5654
+guid: 90c69307ee46d1d4395e33becff87478
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1101278569591884339
-    second: Payton Pose_0
+      213: -8159921571269814781
+    second: safe place_0
   - first:
-      213: -1174917110160457589
-    second: Payton Pose_1
+      213: 8936881586928751177
+    second: safe place_1
   - first:
-      213: -1354467051060044692
-    second: Payton Pose_2
+      213: 1977493907767865042
+    second: safe place_2
+  - first:
+      213: -2675510979419795999
+    second: safe place_3
+  - first:
+      213: 4629821261685342580
+    second: safe place_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,12 +58,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 318.8
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,67 +164,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Payton Pose_0
+      name: safe place 1_5
       rect:
         serializedVersion: 2
-        x: 115
-        y: 142
-        width: 352
-        height: 707
+        x: 161
+        y: 768
+        width: 63
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dc5b9bcc9f877b0f0800000000000000
-      internalID: -1101278569591884339
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Payton Pose_1
-      rect:
-        serializedVersion: 2
-        x: 561
-        y: 142
-        width: 535
-        height: 708
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b808b500d1bd1bfe0800000000000000
-      internalID: -1174917110160457589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Payton Pose_2
-      rect:
-        serializedVersion: 2
-        x: 1208
-        y: 139
-        width: 342
-        height: 667
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c6c5891b467f33de0800000000000000
-      internalID: -1354467051060044692
+      spriteID: ef3b04de3753ee04e91433233c46e1fb
+      internalID: 1536435712
       vertices: []
       indices: 
       edges: []
@@ -227,7 +189,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c3692e904ff90384089b0c3edab07f98
+    spriteID: edf8e816869661149acedce3bee7de9d
     internalID: 0
     vertices: []
     indices: 
@@ -235,11 +197,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Payton Pose_0: -1101278569591884339
-      Payton Pose_1: -1174917110160457589
-      Payton Pose_2: -1354467051060044692
+      safe place 1_0: 564937300
+      safe place 1_1: -95825213
+      safe place 1_2: -653660204
+      safe place 1_3: -1966799724
+      safe place 1_4: 1067799271
+      safe place 1_5: 1536435712
+      safe place 1_6: 1441541759
+      safe place 1_7: -1312828470
+      safe place 1_8: -660957119
+      safe place 1_9: 1481410925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
