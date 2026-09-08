@@ -1,8 +1,8 @@
 <!-- UNITY CODE ASSIST INSTRUCTIONS START -->
-- Project name: ManningCast Mayhem
+- Project name: ManningCast-Mayhem
 - Unity version: Unity 6000.3.10f1
 - Active game object:
-  - Name: Eli Pose_0
+  - Name: Eli Pose_100
   - Tag: Untagged
   - Layer: Default
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
