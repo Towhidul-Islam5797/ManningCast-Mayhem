@@ -7977,7 +7977,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 5
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 7
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -8184,8 +8184,8 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 3
     m_Data: {fileID: -1594899704, guid: ce11a5719901c5d4094f5f5a50de946c, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 2005565179, guid: ec8f16c2d7c83a64c8ae0c2f806bc8d5, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 2
     m_Data: {fileID: -793157658, guid: ce11a5719901c5d4094f5f5a50de946c, type: 3}
   - m_RefCount: 6
@@ -8196,8 +8196,8 @@ Tilemap:
     m_Data: {fileID: -1327297227, guid: ce11a5719901c5d4094f5f5a50de946c, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: -1372620857, guid: ce11a5719901c5d4094f5f5a50de946c, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 2005565179, guid: ec8f16c2d7c83a64c8ae0c2f806bc8d5, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 19
     m_Data:
@@ -10288,6 +10288,7 @@ GameObject:
   - component: {fileID: 1527187042}
   - component: {fileID: 1527187044}
   - component: {fileID: 1527187043}
+  - component: {fileID: 1527187045}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -10389,6 +10390,26 @@ MonoBehaviour:
   characterSelectSceneName: CharacterSelectScene
   settingsPanel: {fileID: 464574277}
   loginPanel: {fileID: 0}
+--- !u!114 &1527187045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527187038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62df033031e8f844ba80a16ec1a396fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  musicSource: {fileID: 0}
+  sfxSource: {fileID: 0}
+  backgroundMusic: {fileID: 8300000, guid: 079bd0b3e5fecca49aa6f2a40d83f283, type: 3}
+  moveClip: {fileID: 8300000, guid: 53b105d24884c7743b0b32010e78065d, type: 3}
+  pickupClip: {fileID: 8300000, guid: 7737523a83f56a5478496d4dc325528d, type: 3}
+  bonusScoreClip: {fileID: 8300000, guid: 4f3e4f601dcde034fad368b5ae151d8f, type: 3}
+  hitClip: {fileID: 8300000, guid: 4a5c6e9d9322ca94faffffee7d4d21c8, type: 3}
+  deathClip: {fileID: 8300000, guid: 5d71ab50a0b766946a04f242faeb6008, type: 3}
 --- !u!1 &1534644838
 GameObject:
   m_ObjectHideFlags: 0
