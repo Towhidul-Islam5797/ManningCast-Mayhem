@@ -6365,6 +6365,7 @@ GameObject:
   - component: {fileID: 638429877}
   - component: {fileID: 638429876}
   - component: {fileID: 638429881}
+  - component: {fileID: 638429882}
   m_Layer: 0
   m_Name: P_Eli 100
   m_TagString: Untagged
@@ -6694,6 +6695,19 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &638429882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638429874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70fcae57c3b4d2044b762846bfbf3164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDebugOverlay
+  pressResetSeconds: 0.5
 --- !u!1 &643948906
 GameObject:
   m_ObjectHideFlags: 0
@@ -7395,11 +7409,12 @@ GameObject:
   m_Component:
   - component: {fileID: 932571684}
   - component: {fileID: 932571683}
-  - component: {fileID: 932571685}
   - component: {fileID: 932571689}
   - component: {fileID: 932571690}
-  - component: {fileID: 932571691}
   - component: {fileID: 932571692}
+  - component: {fileID: 932571685}
+  - component: {fileID: 932571691}
+  - component: {fileID: 932571693}
   m_Layer: 0
   m_Name: P_Peyton 100
   m_TagString: Untagged
@@ -7729,6 +7744,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.96395886, y: 0.85861444}
   m_EdgeRadius: 0
+--- !u!114 &932571693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932571682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70fcae57c3b4d2044b762846bfbf3164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerDebugOverlay
+  pressResetSeconds: 0.5
 --- !u!1 &937421097
 GameObject:
   m_ObjectHideFlags: 0
