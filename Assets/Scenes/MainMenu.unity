@@ -6275,94 +6275,23 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '<size=140%><b>HOW TO PLAY</b></size>
-
-    
-
-    Cross the studio floor
-    and make it to the ManningCast set before time runs out!
-
-    
-
-    <size=115%><b>MOVING</b></size>
-
-    Arrow
-    keys or WASD - one step at a time.
-
-    
-
-    <size=115%><b>YOUR GOAL</b></size>
-
-    Reach
-    the ManningCast set before the clock hits zero.
-
-    
-
-    <size=115%><b>HOW
-    YOU LOSE</b></size>
-
-    - Get caught 3 times (see LIVES below)
-
-    - OR the
-    clock hits zero before you reach the set - either one ends the game
-
-    
-
-    <size=115%><b>LIVES</b></size>
-
-    3
-    lives. Get caught, lose one, get sent back to start.
-
-    
-
-    <size=115%><b>HAZARDS</b></size>
-
-    -
-    Athletes - don''t get tackled
-
-    - Flags - costs the most points if caught
-
-    -
-    The Sandwich - costs points + time, but not a life
-
-    
-
-    <size=115%><b>SAFE
-    SPOTS</b></size>
-
-    - Ride the couch across
-
-    - Never step off it onto
-    the whitish strip - that''s dangerous ground, counts as getting caught
-
-    
-
-    <size=115%><b>FOOTBALLS</b></size>
-
-    -
-    Pick one up (hold up to 3)
-
-    - Press E to throw it forward
-
-    - Clears
-    an Athlete out of your way
-
-    
-
-    <size=115%><b>BONUS PICKUPS</b></size>
-
-    -
-    Quarterzip - bonus points
-
-    - Golden Quarterzip - bonus points + extra time
-
-    
-
-    <size=115%><b>SCORING</b></size>
-
-    Forward
-    progress = points. Backtracking = nothing. Fast finish = big bonus. Getting caught
-    = lost points.'
+  m_text: "<size=140%><b>HOW TO PLAY</b></size>\r\n\r\nCross the studio floor and
+    make it to the ManningCast set before time runs out!\r\n\r\n<size=115%><b>MOVING</b></size>\r\n\"Arrow
+    keys\" or \"WASD\" - one step at a time.\r\n\r\n<size=115%><b>YOUR GOAL</b></size>\r\nReach
+    the ManningCast set before the clock hits zero.\r\n\r\n<size=115%><b>HOW YOU
+    LOSE</b></size>\r\n- Get caught 3 times (see LIVES below)\r\n- OR the clock hits
+    zero before you reach the set - either one ends the game\r\n\r\n<size=115%><b>LIVES</b></size>\r\n3
+    lives. Get caught, lose one, get sent back to start.\r\n\r\n<size=115%><b>SAFE
+    - STAND HERE</b></size>\r\n- Couch, Recliner, Remote - ride these across\r\n-
+    Quarterzip, Golden Quarterzip - pick these up freely\r\n\r\n<size=115%><b>DANGEROUS
+    - AVOID THESE</b></size>\r\n- Athletes - don't get tackled\r\n- Flags - costs
+    the most points if caught\r\n- The Sandwich - costs points + time, but not a
+    life\r\n- The whitish strip in safe lanes - its a trap can't set foot there.
+    Ride a couch/recliner/remote\r\n\r\n<size=115%><b>FOOTBALLS</b></size>\r\n- Pick
+    one up (hold up to 3)\r\n- Press \"E\" to throw it forward\r\n- Clears an Athlete
+    out of your way\r\n\r\n<size=115%><b>SCORING</b></size>\r\n- Forward progress
+    = points. \n- Backtracking = nothing. \n- Fast finish = big bonus. \n- Getting
+    caught = lost points."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77ba471186d88484cbe608968ee4de7d, type: 2}
   m_sharedMaterial: {fileID: 754352041117721846, guid: 77ba471186d88484cbe608968ee4de7d, type: 2}
@@ -8313,7 +8242,7 @@ PrefabInstance:
     - target: {fileID: 6304981240029500893, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2048263322}
     - target: {fileID: 6304981240029500893, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -8341,7 +8270,7 @@ PrefabInstance:
     - target: {fileID: 7154852148218336482, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2048263322}
     - target: {fileID: 7154852148218336482, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
