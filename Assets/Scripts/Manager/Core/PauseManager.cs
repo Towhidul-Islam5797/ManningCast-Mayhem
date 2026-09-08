@@ -50,6 +50,69 @@
 #endregion
 
 #region Phase 2 Sprint 8 - Pause Functionality
+//using UnityEngine;
+//using UnityEngine.InputSystem;
+//using UnityEngine.SceneManagement;
+//using UnityEngine.UI;
+
+//public class PauseManager : MonoBehaviour
+//{
+//    #region Pause State
+//    public static bool IsPaused { get; private set; }
+//    #endregion
+
+//    #region UI Reference
+//    [SerializeField] private GameObject settingsPanel;
+//    [SerializeField] private string mainMenuName = "MainMenu";
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        IsPaused = false;
+//        Time.timeScale = 1f;
+//    }
+
+//    private void Update()
+//    {
+//        if (GameManager.Instance.IsGameOver) return;
+
+//        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+//        {
+//            TogglePause();
+//        }
+//    }
+//    #endregion
+
+//    #region Pause Logic
+//    private void TogglePause()
+//    {
+//        IsPaused = !IsPaused;
+//        Time.timeScale = IsPaused ? 0f : 1f;
+//        settingsPanel.SetActive(IsPaused);
+//    }
+
+//    public void PauseGame()
+//    {
+//        IsPaused = true;
+//        Time.timeScale = 0f;
+//    }
+
+//    public void ResumeGame()
+//    {
+//        IsPaused = false;
+//        Time.timeScale = 1f;
+//    }
+//    public void BackToMainMenu()
+//    {
+
+//        SceneManager.LoadScene(mainMenuName);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 2 Sprint 8 - Pause Functionality
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -76,6 +139,7 @@ public class PauseManager : MonoBehaviour
     private void Update()
     {
         if (GameManager.Instance.IsGameOver) return;
+        if (GameStartOverlay.IsShowing) return;
 
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
@@ -105,7 +169,7 @@ public class PauseManager : MonoBehaviour
     }
     public void BackToMainMenu()
     {
-        
+
         SceneManager.LoadScene(mainMenuName);
     }
     #endregion

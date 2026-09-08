@@ -10,13 +10,44 @@
 #endregion
 
 #region Phase 1 Sprint 4 - Character Selection Implementation
+//using UnityEngine;
+//using UnityEngine.SceneManagement;
+
+//public class CharacterSelectManager : MonoBehaviour
+//{
+//    #region Scene Settings
+//    [SerializeField] private string mainSceneName;
+//    [SerializeField] private string mainMenuName;
+//    #endregion
+
+//    #region Selection Handlers
+//    public void SelectPeyton()
+//    {
+//        CharacterSelection.SelectedCharacter = CharacterSelection.Character.Peyton;
+//        SceneManager.LoadScene(mainSceneName);
+//    }
+
+//    public void SelectEli()
+//    {
+//        CharacterSelection.SelectedCharacter = CharacterSelection.Character.Eli;
+//        SceneManager.LoadScene(mainSceneName);
+//    }
+//    public void Back()
+//    {
+//        SceneManager.LoadScene(mainMenuName);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 1 Sprint 4 - Character Selection Implementation
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class CharacterSelectManager : MonoBehaviour
 {
     #region Scene Settings
-    [SerializeField] private string mainSceneName;
+    [SerializeField] private string billboardSceneName;
     [SerializeField] private string mainMenuName;
     #endregion
 
@@ -24,13 +55,13 @@ public class CharacterSelectManager : MonoBehaviour
     public void SelectPeyton()
     {
         CharacterSelection.SelectedCharacter = CharacterSelection.Character.Peyton;
-        SceneManager.LoadScene(mainSceneName);
+        SceneManager.LoadScene(billboardSceneName);
     }
 
     public void SelectEli()
     {
         CharacterSelection.SelectedCharacter = CharacterSelection.Character.Eli;
-        SceneManager.LoadScene(mainSceneName);
+        SceneManager.LoadScene(billboardSceneName);
     }
     public void Back()
     {

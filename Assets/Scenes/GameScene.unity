@@ -2132,13 +2132,13 @@ MonoBehaviour:
     gapBetweenBursts: 3
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 2020837410}
-    obstaclesPerBurst: 1
+    obstaclesPerBurst: 2
     delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 3
+    gapBetweenBursts: 2
     spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 1503281548}
   laneEndX: 7.5
-  moveSpeed: 2.5
+  moveSpeed: 2.6
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -6279,7 +6279,7 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 6141077}
     obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 0
+    delayBetweenObstaclesInBurst: 1
     gapBetweenBursts: 3
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 1534644840}
@@ -6299,7 +6299,7 @@ MonoBehaviour:
     spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 241447959}
   laneEndX: 10
-  moveSpeed: 2.5
+  moveSpeed: 2.2
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
