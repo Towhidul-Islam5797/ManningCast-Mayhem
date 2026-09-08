@@ -27,6 +27,28 @@
 #endregion
 
 #region Phase 1 Sprint 6 - Player Appearance (Updated) 
+//using UnityEngine;
+
+//public class PlayerAppearance : MonoBehaviour
+//{
+//    #region Visual References
+//    [SerializeField] private GameObject peytonVisual;
+//    [SerializeField] private GameObject eliVisual;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        bool isPeyton = CharacterSelection.SelectedCharacter == CharacterSelection.Character.Peyton;
+
+//        peytonVisual.SetActive(isPeyton);
+//        eliVisual.SetActive(!isPeyton);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 1 Sprint 6 - Player Appearance (Updated) 
 using UnityEngine;
 
 public class PlayerAppearance : MonoBehaviour
@@ -37,7 +59,7 @@ public class PlayerAppearance : MonoBehaviour
     #endregion
 
     #region Unity Lifecycle
-    private void Start()
+    private void Awake()
     {
         bool isPeyton = CharacterSelection.SelectedCharacter == CharacterSelection.Character.Peyton;
 

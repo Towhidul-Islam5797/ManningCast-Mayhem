@@ -4894,6 +4894,34 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4626476921763648630, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626476921763648630, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626476921763648630, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1527187041}
+    - target: {fileID: 4626476921763648630, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626476921763648630, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResumeGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626476921763648630, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PauseManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626476921763648630, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4781553828673611606, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 1
