@@ -196,6 +196,7 @@ Transform:
   m_Children:
   - {fileID: 1844992088}
   - {fileID: 1474015822}
+  - {fileID: 2020837409}
   - {fileID: 1534644839}
   - {fileID: 2006800229}
   - {fileID: 1667427260}
@@ -2126,6 +2127,11 @@ MonoBehaviour:
     gapBetweenBursts: 2
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 1780764175}
+    obstaclesPerBurst: 1
+    delayBetweenObstaclesInBurst: 0
+    gapBetweenBursts: 3
+    spawnCheckSize: {x: 1, y: 1}
+  - pool: {fileID: 2020837410}
     obstaclesPerBurst: 1
     delayBetweenObstaclesInBurst: 0
     gapBetweenBursts: 3
@@ -6287,9 +6293,9 @@ MonoBehaviour:
     gapBetweenBursts: 25
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 1667427261}
-    obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 20
-    gapBetweenBursts: 25
+    obstaclesPerBurst: 1
+    delayBetweenObstaclesInBurst: 30
+    gapBetweenBursts: 35
     spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 241447959}
   laneEndX: 10
@@ -10142,8 +10148,8 @@ MonoBehaviour:
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 1667427261}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 10
-    gapBetweenBursts: 15
+    delayBetweenObstaclesInBurst: 20
+    gapBetweenBursts: 20
     spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 1425885495}
   laneEndX: 10
@@ -10590,7 +10596,7 @@ GameObject:
   - component: {fileID: 1474015822}
   - component: {fileID: 1474015821}
   m_Layer: 0
-  m_Name: SafePool_Counch_2
+  m_Name: SafePool_SafeRecliner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13091,7 +13097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   spawnEntries:
   - pool: {fileID: 1780764175}
-    obstaclesPerBurst: 4
+    obstaclesPerBurst: 3
     delayBetweenObstaclesInBurst: 0
     gapBetweenBursts: 2
     spawnCheckSize: {x: 1, y: 1}
@@ -13107,8 +13113,8 @@ MonoBehaviour:
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 1667427261}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 15
-    gapBetweenBursts: 25
+    delayBetweenObstaclesInBurst: 25
+    gapBetweenBursts: 30
     spawnCheckSize: {x: 1, y: 1}
   spawnPoint: {fileID: 361222958}
   laneEndX: 10
@@ -16029,6 +16035,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
   prefab: {fileID: 6587168629660412565, guid: 0d00cbf273d9f3c4a9ad73b75d267106, type: 3}
   initialSize: 10
+--- !u!1 &2020837408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2020837409}
+  - component: {fileID: 2020837410}
+  m_Layer: 0
+  m_Name: SafePool_SafeRemote
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2020837409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020837408}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 59464922}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2020837410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2020837408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae34c890e82738a44a0aab95f3734aa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectPool
+  prefab: {fileID: 6587168629660412565, guid: d0f7daaab9cf6c64f8a842d191de3498, type: 3}
+  initialSize: 50
 --- !u!1 &2022488346
 GameObject:
   m_ObjectHideFlags: 0
