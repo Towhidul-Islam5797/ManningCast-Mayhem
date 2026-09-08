@@ -10767,7 +10767,7 @@ MonoBehaviour:
   startingLives: 3
   scorePerLaneAdvance: 10
   pointsPerSecondRemaining: 10
-  scorePenaltyPerLifeLost: 50
+  scorePenaltyPerLifeLost: 40
   timeLimit: 90
   maxFootballCharges: 3
 --- !u!114 &1527187041
