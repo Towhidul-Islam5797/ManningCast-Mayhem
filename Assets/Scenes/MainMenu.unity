@@ -1044,7 +1044,6 @@ GameObject:
   m_Component:
   - component: {fileID: 396296088}
   - component: {fileID: 396296089}
-  - component: {fileID: 396296090}
   m_Layer: 0
   m_Name: MainMenuManager
   m_TagString: Untagged
@@ -1083,26 +1082,6 @@ MonoBehaviour:
   characterSelectSceneName: CharacterSelectScene
   settingsPanel: {fileID: 1626663902}
   loginPanel: {fileID: 774858295}
---- !u!114 &396296090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 396296087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62df033031e8f844ba80a16ec1a396fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
-  musicSource: {fileID: 271507635}
-  sfxSource: {fileID: 2073809275}
-  backgroundMusic: {fileID: 8300000, guid: 079bd0b3e5fecca49aa6f2a40d83f283, type: 3}
-  moveClip: {fileID: 8300000, guid: 53b105d24884c7743b0b32010e78065d, type: 3}
-  pickupClip: {fileID: 8300000, guid: 7737523a83f56a5478496d4dc325528d, type: 3}
-  bonusScoreClip: {fileID: 8300000, guid: 4f3e4f601dcde034fad368b5ae151d8f, type: 3}
-  hitClip: {fileID: 8300000, guid: 4a5c6e9d9322ca94faffffee7d4d21c8, type: 3}
-  deathClip: {fileID: 8300000, guid: 5d71ab50a0b766946a04f242faeb6008, type: 3}
 --- !u!1 &443525779
 GameObject:
   m_ObjectHideFlags: 0
@@ -6563,6 +6542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2048263321}
+  - component: {fileID: 2048263322}
   m_Layer: 0
   m_Name: Audio Sources
   m_TagString: Untagged
@@ -6578,7 +6558,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2048263320}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -7.28836, y: -3.61379, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6587,6 +6567,26 @@ Transform:
   - {fileID: 2073809274}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2048263322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048263320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62df033031e8f844ba80a16ec1a396fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  musicSource: {fileID: 271507635}
+  sfxSource: {fileID: 2073809275}
+  backgroundMusic: {fileID: 8300000, guid: 079bd0b3e5fecca49aa6f2a40d83f283, type: 3}
+  moveClip: {fileID: 8300000, guid: 53b105d24884c7743b0b32010e78065d, type: 3}
+  pickupClip: {fileID: 8300000, guid: 7737523a83f56a5478496d4dc325528d, type: 3}
+  bonusScoreClip: {fileID: 8300000, guid: 4f3e4f601dcde034fad368b5ae151d8f, type: 3}
+  hitClip: {fileID: 8300000, guid: 4a5c6e9d9322ca94faffffee7d4d21c8, type: 3}
+  deathClip: {fileID: 8300000, guid: 5d71ab50a0b766946a04f242faeb6008, type: 3}
 --- !u!1 &2073809273
 GameObject:
   m_ObjectHideFlags: 0
@@ -7289,7 +7289,7 @@ PrefabInstance:
     - target: {fileID: 6304981240029500893, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 396296090}
+      objectReference: {fileID: 0}
     - target: {fileID: 6304981240029500893, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -7317,7 +7317,7 @@ PrefabInstance:
     - target: {fileID: 7154852148218336482, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 396296090}
+      objectReference: {fileID: 0}
     - target: {fileID: 7154852148218336482, guid: 0e906e4eb827c83438acbc13bb4023d1, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -7372,7 +7372,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1162102222}
-  - {fileID: 396296088}
   - {fileID: 2048263321}
+  - {fileID: 396296088}
   - {fileID: 144003624}
   - {fileID: 980818914}
