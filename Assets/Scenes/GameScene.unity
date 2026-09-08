@@ -2121,8 +2121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   spawnEntries:
   - pool: {fileID: 1474015821}
-    obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 4
+    obstaclesPerBurst: 5
+    delayBetweenObstaclesInBurst: 3
     gapBetweenBursts: 2
     spawnCheckSize: {x: 1, y: 1}
   - pool: {fileID: 1780764175}
