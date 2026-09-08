@@ -5651,18 +5651,18 @@ PrefabInstance:
     - target: {fileID: 6304981240029500893, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1961566931}
+      objectReference: {fileID: 464574280}
     - target: {fileID: 6304981240029500893, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6304981240029500893, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetSfxVolume
+      value: OnSfxVolumeChanged
       objectReference: {fileID: 0}
     - target: {fileID: 6304981240029500893, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: VolumeSliderBridge, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6304981240029500893, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5707,18 +5707,18 @@ PrefabInstance:
     - target: {fileID: 7154852148218336482, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1961566931}
+      objectReference: {fileID: 464574280}
     - target: {fileID: 7154852148218336482, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7154852148218336482, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetMusicVolume
+      value: OnMusicVolumeChanged
       objectReference: {fileID: 0}
     - target: {fileID: 7154852148218336482, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: AudioManager, Assembly-CSharp
+      value: VolumeSliderBridge, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7154852148218336482, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5755,7 +5755,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1498868052194684482, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 464574280}
   m_SourcePrefab: {fileID: 100100000, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
 --- !u!224 &464574276 stripped
 RectTransform:
@@ -5767,6 +5770,18 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1498868052194684482, guid: 9e64ef3b2ab1bcd4d91fe558e8956f4b, type: 3}
   m_PrefabInstance: {fileID: 464574275}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &464574280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464574277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bc5c569db1c5a40a818d72b945209f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VolumeSliderBridge
 --- !u!1 &472511355
 GameObject:
   m_ObjectHideFlags: 0
