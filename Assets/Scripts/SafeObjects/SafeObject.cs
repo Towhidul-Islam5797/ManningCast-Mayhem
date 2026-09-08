@@ -68,6 +68,67 @@
 #endregion
 
 #region Phase 2 Sprint 5 - Safe Object
+//using UnityEngine;
+
+//public class SafeObject : MonoBehaviour
+//{
+//    #region Settings
+//    [SerializeField] private int edgeScorePenalty;
+//    #endregion
+
+//    #region Private State
+//    private ObstacleMover mover;
+//    private PlayerMovement rider;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        mover = GetComponent<ObstacleMover>();
+//        mover.OnReachedEnd += HandleReachedEnd;
+//    }
+
+//    private void OnDestroy()
+//    {
+//        mover.OnReachedEnd -= HandleReachedEnd;
+//    }
+//    #endregion
+
+//    #region Rider Handling
+//    private void OnTriggerEnter2D(Collider2D other)
+//    {
+//        PlayerMovement player = other.GetComponent<PlayerMovement>();
+//        if (player == null) return;
+
+//        rider = player;
+//        rider.transform.SetParent(transform);
+//    }
+
+//    private void OnTriggerExit2D(Collider2D other)
+//    {
+//        PlayerMovement player = other.GetComponent<PlayerMovement>();
+//        if (player == null || player != rider) return;
+//        if (!gameObject.activeInHierarchy) return;
+
+//        rider.transform.SetParent(null, true);
+//        rider = null;
+//    }
+//    #endregion
+
+//    #region Reached End
+//    private void HandleReachedEnd()
+//    {
+//        if (rider == null) return;
+
+//        rider.transform.SetParent(null, true);
+//        rider.HandleObstacleHit(edgeScorePenalty);
+//        rider = null;
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 2 Sprint 5 - Safe Object
 using UnityEngine;
 
 public class SafeObject : MonoBehaviour
@@ -95,22 +156,28 @@ public class SafeObject : MonoBehaviour
     #endregion
 
     #region Rider Handling
+    private void Update()
+    {
+        if (rider == null) return;
+
+        rider.transform.position += Vector3.right * mover.Speed * Time.deltaTime;
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerMovement player = other.GetComponent<PlayerMovement>();
         if (player == null) return;
 
         rider = player;
-        rider.transform.SetParent(transform);
+        rider.SetRiding(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         PlayerMovement player = other.GetComponent<PlayerMovement>();
         if (player == null || player != rider) return;
-        if (!gameObject.activeInHierarchy) return;
 
-        rider.transform.SetParent(null, true);
+        rider.SetRiding(false);
         rider = null;
     }
     #endregion
@@ -120,11 +187,10 @@ public class SafeObject : MonoBehaviour
     {
         if (rider == null) return;
 
-        rider.transform.SetParent(null, true);
+        rider.SetRiding(false);
         rider.HandleObstacleHit(edgeScorePenalty);
         rider = null;
     }
     #endregion
 }
 #endregion
-
