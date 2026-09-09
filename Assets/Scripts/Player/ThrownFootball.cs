@@ -40,7 +40,12 @@ public class ThrownFootball : MonoBehaviour
     {
         if (other.CompareTag("Athlete"))
         {
-            Destroy(other.gameObject);
+            ObstacleMover athleteMover = other.GetComponent<ObstacleMover>();
+            if (athleteMover != null)
+            {
+                athleteMover.ReturnEarly();
+            }
+
             Destroy(gameObject);
         }
     }

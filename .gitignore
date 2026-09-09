@@ -39,6 +39,9 @@
 # Jetbrains Rider personal-layer settings
 *.DotSettings.user
 
+# Bezi Sidekick tool
+com.bezi.sidekick/
+
 # Visual Studio cache directory
 .vs/
 
