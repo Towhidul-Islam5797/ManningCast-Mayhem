@@ -3349,7 +3349,12 @@ public class GameManager : MonoBehaviour
 
         currentState = GameState.Won;
         SpectatorReaction.Instance.ShowPositive();
-        LeaderboardService.Instance.SubmitScore(currentScore);
+
+        if (LeaderboardService.Instance != null)
+        {
+            LeaderboardService.Instance.SubmitScore(currentScore);
+        }
+
         UnityEngine.Debug.Log("You Win. Tries used: " + triesUsed + ", Time remaining: " + timeRemaining);
     }
 

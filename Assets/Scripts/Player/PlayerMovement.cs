@@ -2627,7 +2627,7 @@ public class PlayerMovement : MonoBehaviour
     #region Input Handling
     public void OnMovePerformed(InputAction.CallbackContext context)
     {
-        if (isMoving || inputLocked || PauseManager.IsPaused) return;
+        if (isMoving || inputLocked || PauseManager.IsPaused || GameManager.Instance.IsGameOver) return;
 
         Vector2 input = context.ReadValue<Vector2>();
         Vector2Int direction = GetCardinalDirection(input);
