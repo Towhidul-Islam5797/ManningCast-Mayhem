@@ -528,6 +528,90 @@
 
 
 #region Phase 3 Sprint 1 - Obstacle Spawner (Independent Bursts, Collider-Checked Clearance) v6
+//using System.Collections;
+//using UnityEngine;
+
+//public class ObstacleSpawner : MonoBehaviour
+//{
+//    #region Spawn Entry
+//    [System.Serializable]
+//    private class SpawnEntry
+//    {
+//        public ObjectPool pool;
+//        public int obstaclesPerBurst = 1;
+//        public float delayBetweenObstaclesInBurst = 0.3f;
+//        public float gapBetweenBursts = 2f;
+//        public Vector2 spawnCheckSize = new Vector2(1f, 1f);
+//    }
+//    #endregion
+
+//    #region Spawn Settings
+//    [SerializeField] private SpawnEntry[] spawnEntries;
+//    [SerializeField] private Transform spawnPoint;
+//    [SerializeField] private float laneEndX = 10f;
+//    [SerializeField] private float moveSpeed = 2f;
+//    #endregion
+
+//    #region Clearance Check
+//    [SerializeField] private LayerMask laneItemsLayer;
+//    [SerializeField] private float maxSpawnWaitSeconds = 5f;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        for (int i = 0; i < spawnEntries.Length; i++)
+//        {
+//            StartCoroutine(SpawnEntryLoop(spawnEntries[i], i));
+//        }
+//    }
+//    #endregion
+
+//    #region Spawning
+//    private IEnumerator SpawnEntryLoop(SpawnEntry entry, int entryIndex)
+//    {
+//        yield return new WaitForSeconds(entryIndex * 0.1f);
+
+//        while (true)
+//        {
+//            for (int i = 0; i < entry.obstaclesPerBurst; i++)
+//            {
+//                float waited = 0f;
+
+//                while (Physics2D.OverlapBox(spawnPoint.position, entry.spawnCheckSize, 0f, laneItemsLayer))
+//                {
+//                    waited += Time.deltaTime;
+//                    if (waited >= maxSpawnWaitSeconds) break;
+
+//                    yield return null;
+//                }
+
+//                if (waited < maxSpawnWaitSeconds)
+//                {
+//                    SpawnObstacle(entry.pool);
+//                }
+
+//                yield return new WaitForSeconds(entry.delayBetweenObstaclesInBurst);
+//            }
+
+//            yield return new WaitForSeconds(entry.gapBetweenBursts);
+//        }
+//    }
+
+//    private void SpawnObstacle(ObjectPool pool)
+//    {
+//        GameObject obstacle = pool.Get();
+//        obstacle.transform.position = spawnPoint.position;
+//        Physics2D.SyncTransforms();
+
+//        ObstacleMover mover = obstacle.GetComponent<ObstacleMover>();
+//        mover.Setup(moveSpeed, laneEndX, pool);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 1 - Obstacle Spawner (Independent Bursts, Collider-Checked Clearance) v6
 using System.Collections;
 using UnityEngine;
 
@@ -539,9 +623,12 @@ public class ObstacleSpawner : MonoBehaviour
     {
         public ObjectPool pool;
         public int obstaclesPerBurst = 1;
-        public float delayBetweenObstaclesInBurst = 0.3f;
-        public float gapBetweenBursts = 2f;
+        public float delayBetweenObstaclesInBurstMin = 0.2f;
+        public float delayBetweenObstaclesInBurstMax = 0.4f;
+        public float gapBetweenBurstsMin = 1.5f;
+        public float gapBetweenBurstsMax = 2.5f;
         public Vector2 spawnCheckSize = new Vector2(1f, 1f);
+        public int initialPopulationCount = 2;
     }
     #endregion
 
@@ -550,6 +637,7 @@ public class ObstacleSpawner : MonoBehaviour
     [SerializeField] private Transform spawnPoint;
     [SerializeField] private float laneEndX = 10f;
     [SerializeField] private float moveSpeed = 2f;
+    [SerializeField] private float maxInitialDelay = 1f;
     #endregion
 
     #region Clearance Check
@@ -560,48 +648,71 @@ public class ObstacleSpawner : MonoBehaviour
     #region Unity Lifecycle
     private void Start()
     {
+        PrePopulateLane();
+
         for (int i = 0; i < spawnEntries.Length; i++)
         {
-            StartCoroutine(SpawnEntryLoop(spawnEntries[i], i));
+            StartCoroutine(SpawnEntryLoop(spawnEntries[i]));
+        }
+    }
+    #endregion
+
+    #region Pre-Population
+    private void PrePopulateLane()
+    {
+        float laneMinX = Mathf.Min(spawnPoint.position.x, laneEndX);
+        float laneMaxX = Mathf.Max(spawnPoint.position.x, laneEndX);
+
+        foreach (SpawnEntry entry in spawnEntries)
+        {
+            float segmentWidth = (laneMaxX - laneMinX) / entry.initialPopulationCount;
+
+            for (int i = 0; i < entry.initialPopulationCount; i++)
+            {
+                float segmentStart = laneMinX + segmentWidth * i;
+                float startX = Random.Range(segmentStart, segmentStart + segmentWidth);
+
+                SpawnObstacle(entry.pool, startX);
+            }
         }
     }
     #endregion
 
     #region Spawning
-    private IEnumerator SpawnEntryLoop(SpawnEntry entry, int entryIndex)
+    private IEnumerator SpawnEntryLoop(SpawnEntry entry)
     {
-        yield return new WaitForSeconds(entryIndex * 0.1f);
+        yield return new WaitForSeconds(Random.Range(0f, maxInitialDelay));
 
         while (true)
         {
             for (int i = 0; i < entry.obstaclesPerBurst; i++)
             {
-                yield return StartCoroutine(WaitForClearSpawnPoint(entry.spawnCheckSize));
-                SpawnObstacle(entry.pool);
-                yield return new WaitForSeconds(entry.delayBetweenObstaclesInBurst);
+                float waited = 0f;
+
+                while (Physics2D.OverlapBox(spawnPoint.position, entry.spawnCheckSize, 0f, laneItemsLayer))
+                {
+                    waited += Time.deltaTime;
+                    if (waited >= maxSpawnWaitSeconds) break;
+
+                    yield return null;
+                }
+
+                if (waited < maxSpawnWaitSeconds)
+                {
+                    SpawnObstacle(entry.pool, spawnPoint.position.x);
+                }
+
+                yield return new WaitForSeconds(Random.Range(entry.delayBetweenObstaclesInBurstMin, entry.delayBetweenObstaclesInBurstMax));
             }
 
-            yield return new WaitForSeconds(entry.gapBetweenBursts);
+            yield return new WaitForSeconds(Random.Range(entry.gapBetweenBurstsMin, entry.gapBetweenBurstsMax));
         }
     }
 
-    private IEnumerator WaitForClearSpawnPoint(Vector2 checkSize)
-    {
-        float waited = 0f;
-
-        while (Physics2D.OverlapBox(spawnPoint.position, checkSize, 0f, laneItemsLayer))
-        {
-            waited += Time.deltaTime;
-            if (waited >= maxSpawnWaitSeconds) yield break;
-
-            yield return null;
-        }
-    }
-
-    private void SpawnObstacle(ObjectPool pool)
+    private void SpawnObstacle(ObjectPool pool, float startX)
     {
         GameObject obstacle = pool.Get();
-        obstacle.transform.position = spawnPoint.position;
+        obstacle.transform.position = new Vector3(startX, spawnPoint.position.y, spawnPoint.position.z);
         Physics2D.SyncTransforms();
 
         ObstacleMover mover = obstacle.GetComponent<ObstacleMover>();
