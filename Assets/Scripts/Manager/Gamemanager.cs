@@ -975,12 +975,6 @@
 //}
 #endregion
 
-#region Summary
-/// <summary>
-/// GameManager class is responsible for managing the game state, including player lives and game over conditions.
-/// </summary>
-#endregion
-
 #region Phase 1 Sprint 2 - GameManager Implementation
 //using UnityEngine;
 

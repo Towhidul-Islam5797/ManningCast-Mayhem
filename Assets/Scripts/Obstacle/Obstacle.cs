@@ -190,6 +190,49 @@
 #endregion
 
 #region Phase 3 Sprint 3 - Obstacle Types + Time Penalty
+//using UnityEngine;
+
+//public class Obstacle : MonoBehaviour
+//{
+//    #region Obstacle Type
+//    public enum ObstacleType
+//    {
+//        Television,
+//        Sandwich,
+//        Flag,
+//        Athlete
+//    }
+
+//    [SerializeField] private ObstacleType obstacleType;
+//    [SerializeField] private int scorePenalty;
+//    [SerializeField] private float timePenaltySeconds;
+//    #endregion
+
+//    #region Collision Detection
+//    private void OnTriggerEnter2D(Collider2D other)
+//    {
+//        PlayerMovement player = other.GetComponent<PlayerMovement>();
+
+//        if (player == null) return;
+
+//        switch (obstacleType)
+//        {
+//            case ObstacleType.Television:
+//            case ObstacleType.Flag:
+//            case ObstacleType.Athlete:
+//                player.HandleObstacleHit(scorePenalty);
+//                break;
+
+//            case ObstacleType.Sandwich:
+//                player.HandleSandwichHit(scorePenalty, timePenaltySeconds);
+//                break;
+//        }
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 3 - Obstacle Types + Time Penalty
 using UnityEngine;
 
 public class Obstacle : MonoBehaviour
@@ -208,12 +251,25 @@ public class Obstacle : MonoBehaviour
     [SerializeField] private float timePenaltySeconds;
     #endregion
 
+    #region Hit State
+    private bool hasHit;
+
+    private void OnEnable()
+    {
+        hasHit = false;
+    }
+    #endregion
+
     #region Collision Detection
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (hasHit) return;
+
         PlayerMovement player = other.GetComponent<PlayerMovement>();
 
         if (player == null) return;
+
+        hasHit = true;
 
         switch (obstacleType)
         {

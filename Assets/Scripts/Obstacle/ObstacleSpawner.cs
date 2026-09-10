@@ -554,6 +554,7 @@ public class ObstacleSpawner : MonoBehaviour
 
     #region Clearance Check
     [SerializeField] private LayerMask laneItemsLayer;
+    [SerializeField] private float maxSpawnWaitSeconds = 5f;
     #endregion
 
     #region Unity Lifecycle
@@ -586,8 +587,13 @@ public class ObstacleSpawner : MonoBehaviour
 
     private IEnumerator WaitForClearSpawnPoint(Vector2 checkSize)
     {
+        float waited = 0f;
+
         while (Physics2D.OverlapBox(spawnPoint.position, checkSize, 0f, laneItemsLayer))
         {
+            waited += Time.deltaTime;
+            if (waited >= maxSpawnWaitSeconds) yield break;
+
             yield return null;
         }
     }
