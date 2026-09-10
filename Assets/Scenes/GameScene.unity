@@ -2256,25 +2256,36 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 1474015821}
     obstaclesPerBurst: 5
-    delayBetweenObstaclesInBurst: 3
-    gapBetweenBursts: 2
+    delayBetweenObstaclesInBurstMin: 2.1
+    delayBetweenObstaclesInBurstMax: 3.9
+    gapBetweenBurstsMin: 1.4
+    gapBetweenBurstsMax: 2.6
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 1780764175}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 3
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 2.1
+    gapBetweenBurstsMax: 3.9
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 2020837410}
     obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 2
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 1.5
+    gapBetweenBurstsMax: 2.6
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   spawnPoint: {fileID: 1503281548}
   laneEndX: 7.5
   moveSpeed: 2.6
+  maxInitialDelay: 1
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
+  maxSpawnWaitSeconds: 5
 --- !u!1 &386239406
 GameObject:
   m_ObjectHideFlags: 0
@@ -6097,30 +6108,44 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 6141077}
     obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 1
-    gapBetweenBursts: 3
+    delayBetweenObstaclesInBurstMin: 0.7
+    delayBetweenObstaclesInBurstMax: 1.3
+    gapBetweenBurstsMin: 2.1
+    gapBetweenBurstsMax: 3.9
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 1534644840}
     obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 3
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 2.1
+    gapBetweenBurstsMax: 3.9
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 2006800230}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 15
-    gapBetweenBursts: 25
+    delayBetweenObstaclesInBurstMin: 10.5
+    delayBetweenObstaclesInBurstMax: 19.5
+    gapBetweenBurstsMin: 17.5
+    gapBetweenBurstsMax: 32.5
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 0
   - pool: {fileID: 1667427261}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 30
-    gapBetweenBursts: 35
+    delayBetweenObstaclesInBurstMin: 21
+    delayBetweenObstaclesInBurstMax: 39
+    gapBetweenBurstsMin: 24.5
+    gapBetweenBurstsMax: 45.5
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 0
   spawnPoint: {fileID: 241447959}
   laneEndX: 10
   moveSpeed: 2.2
+  maxInitialDelay: 1
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
+  maxSpawnWaitSeconds: 5
 --- !u!1 &540643540
 GameObject:
   m_ObjectHideFlags: 0
@@ -7231,15 +7256,20 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 1844992087}
     obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 4
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 2.8
+    gapBetweenBurstsMax: 5.2
     spawnCheckSize: {x: 2, y: 1}
+    initialPopulationCount: 2
   spawnPoint: {fileID: 447703048}
   laneEndX: -7.5
   moveSpeed: -2
+  maxInitialDelay: 1
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
+  maxSpawnWaitSeconds: 5
 --- !u!1 &731342301
 GameObject:
   m_ObjectHideFlags: 0
@@ -9825,20 +9855,28 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 570958512}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 3
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 2.1
+    gapBetweenBurstsMax: 3.9
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 1302977159}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 3
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 2.1
+    gapBetweenBurstsMax: 3.9
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   spawnPoint: {fileID: 2122259025}
   laneEndX: -10
   moveSpeed: -2.5
+  maxInitialDelay: 1
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
+  maxSpawnWaitSeconds: 5
 --- !u!1 &1302977157
 GameObject:
   m_ObjectHideFlags: 0
@@ -10173,25 +10211,36 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 1534644840}
     obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 2
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 1.4
+    gapBetweenBurstsMax: 2.6
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 2006800230}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 10
-    gapBetweenBursts: 15
+    delayBetweenObstaclesInBurstMin: 7
+    delayBetweenObstaclesInBurstMax: 13
+    gapBetweenBurstsMin: 10.5
+    gapBetweenBurstsMax: 19.5
     spawnCheckSize: {x: 1, y: 1}
-  - pool: {fileID: 1667427261}
+    initialPopulationCount: 2
+  - pool: {fileID: 1780764175}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 20
-    gapBetweenBursts: 20
+    delayBetweenObstaclesInBurstMin: 14
+    delayBetweenObstaclesInBurstMax: 26
+    gapBetweenBurstsMin: 14
+    gapBetweenBurstsMax: 26
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   spawnPoint: {fileID: 1425885495}
   laneEndX: 10
   moveSpeed: 2
+  maxInitialDelay: 1
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
+  maxSpawnWaitSeconds: 5
 --- !u!1 &1379280354
 GameObject:
   m_ObjectHideFlags: 0
@@ -13225,30 +13274,44 @@ MonoBehaviour:
   spawnEntries:
   - pool: {fileID: 1780764175}
     obstaclesPerBurst: 3
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 2
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 1.4
+    gapBetweenBurstsMax: 2.6
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 1534644840}
     obstaclesPerBurst: 2
-    delayBetweenObstaclesInBurst: 0
-    gapBetweenBursts: 2
+    delayBetweenObstaclesInBurstMin: 0
+    delayBetweenObstaclesInBurstMax: 0.2
+    gapBetweenBurstsMin: 1.4
+    gapBetweenBurstsMax: 2.6
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 2006800230}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 15
-    gapBetweenBursts: 20
+    delayBetweenObstaclesInBurstMin: 10.5
+    delayBetweenObstaclesInBurstMax: 19.5
+    gapBetweenBurstsMin: 14
+    gapBetweenBurstsMax: 26
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   - pool: {fileID: 1667427261}
     obstaclesPerBurst: 1
-    delayBetweenObstaclesInBurst: 25
-    gapBetweenBursts: 30
+    delayBetweenObstaclesInBurstMin: 17.5
+    delayBetweenObstaclesInBurstMax: 32.5
+    gapBetweenBurstsMin: 21
+    gapBetweenBurstsMax: 39
     spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   spawnPoint: {fileID: 361222958}
   laneEndX: 10
   moveSpeed: 2.2
+  maxInitialDelay: 1
   laneItemsLayer:
     serializedVersion: 2
     m_Bits: 256
+  maxSpawnWaitSeconds: 5
 --- !u!1 &1871445786
 GameObject:
   m_ObjectHideFlags: 0
