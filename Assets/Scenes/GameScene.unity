@@ -10224,7 +10224,7 @@ MonoBehaviour:
     gapBetweenBurstsMin: 10.5
     gapBetweenBurstsMax: 19.5
     spawnCheckSize: {x: 1, y: 1}
-    initialPopulationCount: 2
+    initialPopulationCount: 0
   - pool: {fileID: 1780764175}
     obstaclesPerBurst: 1
     delayBetweenObstaclesInBurstMin: 14
@@ -13295,7 +13295,7 @@ MonoBehaviour:
     gapBetweenBurstsMin: 14
     gapBetweenBurstsMax: 26
     spawnCheckSize: {x: 1, y: 1}
-    initialPopulationCount: 2
+    initialPopulationCount: 0
   - pool: {fileID: 1667427261}
     obstaclesPerBurst: 1
     delayBetweenObstaclesInBurstMin: 17.5
@@ -13303,7 +13303,7 @@ MonoBehaviour:
     gapBetweenBurstsMin: 21
     gapBetweenBurstsMax: 39
     spawnCheckSize: {x: 1, y: 1}
-    initialPopulationCount: 2
+    initialPopulationCount: 0
   spawnPoint: {fileID: 361222958}
   laneEndX: 10
   moveSpeed: 2.2
