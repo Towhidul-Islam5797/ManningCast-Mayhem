@@ -809,6 +809,7 @@ MonoBehaviour:
   skipUnlockSeconds: 8
   videoPlayer: {fileID: 880251002}
   skipButton: {fileID: 1591355135}
+  skipButtonText: {fileID: 1579928043}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

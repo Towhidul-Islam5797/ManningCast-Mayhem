@@ -2279,7 +2279,7 @@ MonoBehaviour:
     spawnCheckSize: {x: 1, y: 1}
     initialPopulationCount: 2
   spawnPoint: {fileID: 1503281548}
-  laneEndX: 7.5
+  laneEndX: 12
   moveSpeed: 2.6
   maxInitialDelay: 1
   laneItemsLayer:
@@ -7263,7 +7263,7 @@ MonoBehaviour:
     spawnCheckSize: {x: 2, y: 1}
     initialPopulationCount: 2
   spawnPoint: {fileID: 447703048}
-  laneEndX: -7.5
+  laneEndX: -12
   moveSpeed: -2
   maxInitialDelay: 1
   laneItemsLayer:
