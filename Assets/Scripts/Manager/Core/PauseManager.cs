@@ -141,7 +141,7 @@ public class PauseManager : MonoBehaviour
         if (GameManager.Instance.IsGameOver) return;
         if (GameStartOverlay.IsShowing) return;
 
-        if (Keyboard.current.escapeKey.wasPressedThisFrame)
+        if (Keyboard.current != null && Keyboard.current.escapeKey.wasPressedThisFrame)
         {
             TogglePause();
         }

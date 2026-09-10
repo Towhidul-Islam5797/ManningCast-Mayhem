@@ -3228,6 +3228,12 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+        currentLives = startingLives;
+        currentScore = 0;
+        elapsedTime = 0f;
+        remainingTime = timeLimit;
+        footballCharges = 0;
+        currentState = GameState.Playing;
     }
     #endregion
 
@@ -3324,6 +3330,7 @@ public class GameManager : MonoBehaviour
 
         currentScore = Mathf.Max(0, currentScore - scorePenalty);
         remainingTime = Mathf.Max(0f, remainingTime - timePenaltySeconds);
+        if (remainingTime <= 0f) TimeExpired();
         AudioManager.Instance.PlayHit();
         SpectatorReaction.Instance.ShowNegative();
     }
@@ -3340,9 +3347,10 @@ public class GameManager : MonoBehaviour
         if (currentState != GameState.Playing) return;
 
         int triesUsed = startingLives - currentLives;
-        float timeRemaining = Mathf.Max(0f, timeLimit - elapsedTime);
+        float timeRemaining = remainingTime;
 
         int triesPenalty = triesUsed * scorePenaltyPerLifeLost;
+
         int timeBonus = Mathf.RoundToInt(timeRemaining * pointsPerSecondRemaining);
 
         currentScore = Mathf.Max(0, currentScore + timeBonus - triesPenalty);

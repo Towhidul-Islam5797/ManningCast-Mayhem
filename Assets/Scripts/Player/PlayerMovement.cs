@@ -2675,6 +2675,10 @@ public class PlayerMovement : MonoBehaviour
     #region Throw Handling
     public void OnInteractPerformed(InputAction.CallbackContext context)
     {
+        
+
+        if (inputLocked || PauseManager.IsPaused || GameManager.Instance.IsGameOver) return;
+        
         Debug.Log("OnInteractPerformed called at " + Time.time);
 
         if (!GameManager.Instance.SpendFootball()) return;
