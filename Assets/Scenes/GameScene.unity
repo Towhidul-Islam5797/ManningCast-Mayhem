@@ -10233,6 +10233,14 @@ MonoBehaviour:
     gapBetweenBurstsMax: 26
     spawnCheckSize: {x: 1, y: 1}
     initialPopulationCount: 2
+  - pool: {fileID: 6141077}
+    obstaclesPerBurst: 2
+    delayBetweenObstaclesInBurstMin: 0.7
+    delayBetweenObstaclesInBurstMax: 1.3
+    gapBetweenBurstsMin: 2.1
+    gapBetweenBurstsMax: 3.9
+    spawnCheckSize: {x: 1, y: 1}
+    initialPopulationCount: 2
   spawnPoint: {fileID: 1425885495}
   laneEndX: 10
   moveSpeed: 2
