@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BillboardManager
   gameSceneName: GameScene
-  skipUnlockSeconds: 8
+  skipUnlockSeconds: 4
   videoPlayer: {fileID: 880251002}
   skipButton: {fileID: 1591355135}
   skipButtonText: {fileID: 1579928043}

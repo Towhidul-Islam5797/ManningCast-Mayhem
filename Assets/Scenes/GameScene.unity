@@ -10944,7 +10944,7 @@ MonoBehaviour:
   scorePerLaneAdvance: 10
   pointsPerSecondRemaining: 10
   scorePenaltyPerLifeLost: 40
-  timeLimit: 90
+  timeLimit: 300
   maxFootballCharges: 3
 --- !u!114 &1527187041
 MonoBehaviour:
@@ -12349,7 +12349,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1804475616
 RectTransform:
   m_ObjectHideFlags: 0
