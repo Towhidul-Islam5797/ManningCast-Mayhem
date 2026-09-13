@@ -653,7 +653,7 @@ GameObject:
   - component: {fileID: 1591355136}
   - component: {fileID: 1591355135}
   m_Layer: 5
-  m_Name: Button
+  m_Name: SkipButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
