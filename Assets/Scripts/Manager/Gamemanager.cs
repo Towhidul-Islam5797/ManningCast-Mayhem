@@ -3377,6 +3377,8 @@ public class GameManager : MonoBehaviour
 
     public void CollectFootball()
     {
+        if (currentState != GameState.Playing) return;
+
         footballCharges = Mathf.Min(footballCharges + 1, maxFootballCharges);
         AudioManager.Instance.PlayPickup();
         SpectatorReaction.Instance.ShowPositive();
