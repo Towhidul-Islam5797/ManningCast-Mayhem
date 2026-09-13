@@ -11596,8 +11596,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
   startingLives: 3
-  scorePerLaneAdvance: 50
-  pointsPerSecondRemaining: 20
+  scorePerLaneAdvance: 280
+  maxBonusScorePerRun: 2500
+  maxHazardPenaltyPerRun: 2500
+  pointsPerSecondRemaining: 10
   scorePenaltyPerLifeLost: 30
   timeLimit: 300
   maxFootballCharges: 3
