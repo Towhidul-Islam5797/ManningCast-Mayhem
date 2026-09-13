@@ -168,15 +168,6 @@
 //}
 #endregion
 
-#region Summary
-/// <summary>
-/// BillboardManager plays the billboard video once while GameScene loads in
-/// the background, showing the rules alongside it. Skip unlocks after a
-/// short delay. Transitions to GameScene automatically once the video has
-/// finished (or been skipped) and the scene is ready.
-/// </summary>
-#endregion
-
 #region Phase 3 Sprint 11 - Billboard Manager + Error Handling
 using System.Collections;
 using TMPro;
@@ -226,7 +217,7 @@ public class BillboardManager : MonoBehaviour
 
     private void Update()
     {
-        if (sceneLoad == null) return;
+        if (sceneLoad == null || sceneLoad.allowSceneActivation) return;
 
         if (videoFinished && sceneLoad.progress >= 0.9f)
         {
