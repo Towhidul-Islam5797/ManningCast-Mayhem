@@ -3309,6 +3309,11 @@ public class GameManager : MonoBehaviour
             currentState = GameState.Lost;
             AudioManager.Instance.PlayDeath();
             UnityEngine.Debug.Log("Game Over");
+
+            if (LeaderboardService.Instance != null)
+            {
+                LeaderboardService.Instance.SubmitScore(currentScore);
+            }
         }
         else
         {
@@ -3367,6 +3372,11 @@ public class GameManager : MonoBehaviour
         currentState = GameState.Lost;
         SpectatorReaction.Instance.ShowNegative();
         UnityEngine.Debug.Log("Time's up. Game Over");
+
+        if (LeaderboardService.Instance != null)
+        {
+            LeaderboardService.Instance.SubmitScore(currentScore);
+        }
     }
     #endregion
 
