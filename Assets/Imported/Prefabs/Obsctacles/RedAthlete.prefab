@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Obstacle
   obstacleType: 3
-  scorePenalty: 20
+  scorePenalty: 15
   timePenaltySeconds: 10
 --- !u!114 &-5924220975978271066
 MonoBehaviour:

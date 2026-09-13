@@ -132,7 +132,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 10.47, y: 10.04}
+    oldSize: {x: 1.029703, y: 0.9940594}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -164,5 +164,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46edce81ebb9bfa44bdbd7a94e3c08a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuarterzipPickup
-  bonusScore: 20
-  bonusTimeSeconds: 10
+  bonusScore: 50
+  bonusTimeSeconds: 20

@@ -164,5 +164,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46edce81ebb9bfa44bdbd7a94e3c08a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::QuarterzipPickup
-  bonusScore: 20
-  bonusTimeSeconds: 0
+  bonusScore: 25
+  bonusTimeSeconds: 5

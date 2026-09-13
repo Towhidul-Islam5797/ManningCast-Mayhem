@@ -40,6 +40,46 @@
 #endregion
 
 #region Phase 2 Sprint 2 - Camera Follow + Character Selection
+//using UnityEngine;
+
+//public class CameraFollow : MonoBehaviour
+//{
+//    #region Follow Settings
+//    [SerializeField] private Transform peytonTransform;
+//    [SerializeField] private Transform eliTransform;
+//    [SerializeField] private float followSpeed = 5f;
+//    [SerializeField] private float minY = -3f;
+//    [SerializeField] private float maxY = 9f;
+//    #endregion
+
+//    #region Private State
+//    private Transform player;
+//    private float fixedX;
+//    private float fixedZ;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        fixedX = transform.position.x;
+//        fixedZ = transform.position.z;
+
+//        bool isPeyton = CharacterSelection.SelectedCharacter == CharacterSelection.Character.Peyton;
+//        player = isPeyton ? peytonTransform : eliTransform;
+//    }
+
+//    private void LateUpdate()
+//    {
+//        float targetY = Mathf.Clamp(player.position.y, minY, maxY);
+//        float newY = Mathf.Lerp(transform.position.y, targetY, followSpeed * Time.deltaTime);
+
+//        transform.position = new Vector3(fixedX, newY, fixedZ);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 2 Sprint 2 - Camera Follow + Character Selection
 using UnityEngine;
 
 public class CameraFollow : MonoBehaviour
@@ -47,15 +87,17 @@ public class CameraFollow : MonoBehaviour
     #region Follow Settings
     [SerializeField] private Transform peytonTransform;
     [SerializeField] private Transform eliTransform;
+    [SerializeField] private Collider2D wallsCollider;
+    [SerializeField] private Transform goalArea;
     [SerializeField] private float followSpeed = 5f;
-    [SerializeField] private float minY = -3f;
-    [SerializeField] private float maxY = 9f;
     #endregion
 
     #region Private State
     private Transform player;
     private float fixedX;
     private float fixedZ;
+    private float minY;
+    private float maxY;
     #endregion
 
     #region Unity Lifecycle
@@ -66,6 +108,10 @@ public class CameraFollow : MonoBehaviour
 
         bool isPeyton = CharacterSelection.SelectedCharacter == CharacterSelection.Character.Peyton;
         player = isPeyton ? peytonTransform : eliTransform;
+
+        float halfCameraHeight = GetComponent<Camera>().orthographicSize;
+        minY = wallsCollider.bounds.min.y + halfCameraHeight;
+        maxY = goalArea.position.y;
     }
 
     private void LateUpdate()
