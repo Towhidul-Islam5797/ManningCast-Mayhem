@@ -2,7 +2,7 @@
 - Project name: ManningCast Mayhem
 - Unity version: Unity 6000.3.10f1
 - Active game object:
-  - Name: SpectatorReaction
+  - Name: SafeRemote
   - Tag: Untagged
-  - Layer: Default
+  - Layer: LaneItems
 <!-- UNITY CODE ASSIST INSTRUCTIONS END -->
