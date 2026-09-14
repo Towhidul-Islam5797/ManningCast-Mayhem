@@ -9954,50 +9954,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cross the studio floor to the ManningCast set before time runs out.
-
-
-    MOVE
-
-    Arrow
-    keys or WASD, one step at a time.
-
-
-    LOSE
-
-    Caught 3 times, or the clock
-    hits zero first.
-
-
-    LIVES
-
-    3 lives. Get caught, lose one, sent back to
-    start.
-
-
-    SAFE
-
-    Couch, Recliner, Remote - ride across. Quarterzip, Golden
-    Quarterzip - free pickup.
-
-
-    AVOID
-
-    Athletes - tackle you. Flags - costs
-    the most points. Sandwich - costs points and time. White strip in safe lanes
-    is a trap - only safe if riding.
-
-
-    FOOTBALLS
-
-    Hold up to 3. Press E to
-    throw one and clear an Athlete.
-
-
-    SCORING
-
-    Forward = points. Backtracking
-    = nothing. Fast finish = bonus. Caught = lose points.'
+  m_text: "<b><size=110%>YOUR GOAL</size></b>\r\nReach the set before the clock hits
+    zero or you won't make it to the show on time!\r\n\r\n<b><size=110%>LIVES</size></b>\r\nYou
+    have 3 chances to get to the end. Lose one and you'll go back to start.\r\n\r\n<b><size=110%>ASSIST</size></b>\r\nCouches,
+    recliners, and remotes are safe spaces.\r\n<i>The white lanes are a trap!</i>
+    Ride the safe items to get by.\r\n\r\n<b><size=110%>DANGEROUS</size></b>\r\n<b>Athletes</b>
+    - Don't get tackled!\r\n<b>Penalty Flags</b> - Costs the most points if you're
+    hit\r\n<b>Sandwich</b> - They are delicious\u2026 but it'll cost you time and
+    points.\r\n\r\n<b><size=110%>FOOTBALLS</size></b>\r\nPoints received for every
+    pick up\r\nYou can hold up to three at a time\r\nPress <b>\"E\"</b> to throw
+    it forward and clear an athlete\r\n\r\n<b><size=110%>QUARTERZIPS</size></b>\r\nBonus
+    points.. especially the golden ones!\r\n\r\n<b><size=110%>SCORING</size></b>\r\nForward
+    = points. Backtracking = nothing. Fast finish = bonus. Caught = lose points."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 77ba471186d88484cbe608968ee4de7d, type: 2}
   m_sharedMaterial: {fileID: 754352041117721846, guid: 77ba471186d88484cbe608968ee4de7d, type: 2}
@@ -10024,8 +9992,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38
-  m_fontSizeBase: 38
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -11199,7 +11167,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1403854748
 MonoBehaviour:
   m_ObjectHideFlags: 0
