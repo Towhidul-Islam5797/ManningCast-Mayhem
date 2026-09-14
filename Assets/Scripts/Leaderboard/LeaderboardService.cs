@@ -103,6 +103,10 @@ public class LeaderboardService : MonoBehaviour
     public static LeaderboardService Instance { get; private set; }
 
     #region Backend Settings
+    [Header("Leaderboard Backend Settings")]
+    [Header("The URL of the Google Sheets web app that handles leaderboard submissions.")]
+    [Header("Don't Change, Share, Handle with Care.")]
+   
     [SerializeField] private string webAppUrl;
     [SerializeField] private string sharedSecret;
     #endregion
