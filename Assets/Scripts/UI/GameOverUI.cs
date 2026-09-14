@@ -104,6 +104,111 @@
 #endregion
 
 #region Phase 3 Sprint 8 - Game Over UI with Win Lose Art
+//using UnityEngine;
+
+//public class GameOverUI : MonoBehaviour
+//{
+//    #region UI References
+//    [SerializeField] private GameObject gameOverPanel;
+//    [SerializeField] private GameObject winScreen;
+//    [SerializeField] private GameObject loseScreen;
+//    #endregion
+
+//    #region Private State
+//    private bool hasShownPanel;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        gameOverPanel.SetActive(false);
+//        winScreen.SetActive(false);
+//        loseScreen.SetActive(false);
+//    }
+
+//    private void Update()
+//    {
+//        if (hasShownPanel) return;
+
+//        if (GameManager.Instance.CurrentState == GameManager.GameState.Won)
+//        {
+//            ShowPanel(winScreen);
+//        }
+//        else if (GameManager.Instance.CurrentState == GameManager.GameState.Lost)
+//        {
+//            ShowPanel(loseScreen);
+//        }
+//    }
+//    #endregion
+
+//    #region Panel Display
+//    private void ShowPanel(GameObject screen)
+//    {
+//        hasShownPanel = true;
+//        screen.SetActive(true);
+//        gameOverPanel.SetActive(true);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 8 - Game Over UI with Win Lose Art
+//using TMPro;
+//using UnityEngine;
+
+//public class GameOverUI : MonoBehaviour
+//{
+//    #region UI References
+//    [SerializeField] private GameObject gameOverPanel;
+//    [SerializeField] private GameObject winScreen;
+//    [SerializeField] private GameObject loseScreen;
+//    [SerializeField] private TMP_Text winScoreText;
+//    [SerializeField] private TMP_Text loseScoreText;
+//    #endregion
+
+//    #region Private State
+//    private bool hasShownPanel;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Awake()
+//    {
+//        gameOverPanel.SetActive(false);
+//        winScreen.SetActive(false);
+//        loseScreen.SetActive(false);
+//    }
+
+//    private void Update()
+//    {
+//        if (hasShownPanel) return;
+
+//        if (GameManager.Instance.CurrentState == GameManager.GameState.Won)
+//        {
+//            winScoreText.text = "Score: " + GameManager.Instance.CurrentScore;
+//            ShowPanel(winScreen);
+//        }
+//        else if (GameManager.Instance.CurrentState == GameManager.GameState.Lost)
+//        {
+//            loseScoreText.text = "Score: " + GameManager.Instance.CurrentScore;
+//            ShowPanel(loseScreen);
+//        }
+//    }
+//    #endregion
+
+//    #region Panel Display
+//    private void ShowPanel(GameObject screen)
+//    {
+//        hasShownPanel = true;
+//        screen.SetActive(true);
+//        gameOverPanel.SetActive(true);
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 8 - Game Over UI with Win Lose Art
+using System.Collections;
+using TMPro;
 using UnityEngine;
 
 public class GameOverUI : MonoBehaviour
@@ -112,6 +217,13 @@ public class GameOverUI : MonoBehaviour
     [SerializeField] private GameObject gameOverPanel;
     [SerializeField] private GameObject winScreen;
     [SerializeField] private GameObject loseScreen;
+    [SerializeField] private GameObject scorePanel;
+    [SerializeField] private TMP_Text scoreText;
+    #endregion
+
+    #region Timing Settings
+    [SerializeField] private float outcomeRevealDelay = 2f;
+    [SerializeField] private float scorePanelRevealDelay = 2f;
     #endregion
 
     #region Private State
@@ -124,6 +236,7 @@ public class GameOverUI : MonoBehaviour
         gameOverPanel.SetActive(false);
         winScreen.SetActive(false);
         loseScreen.SetActive(false);
+        scorePanel.SetActive(false);
     }
 
     private void Update()
@@ -132,21 +245,29 @@ public class GameOverUI : MonoBehaviour
 
         if (GameManager.Instance.CurrentState == GameManager.GameState.Won)
         {
-            ShowPanel(winScreen);
+            hasShownPanel = true;
+            StartCoroutine(RevealSequence(winScreen));
         }
         else if (GameManager.Instance.CurrentState == GameManager.GameState.Lost)
         {
-            ShowPanel(loseScreen);
+            hasShownPanel = true;
+            StartCoroutine(RevealSequence(loseScreen));
         }
     }
     #endregion
 
-    #region Panel Display
-    private void ShowPanel(GameObject screen)
+    #region Reveal Sequence
+    private IEnumerator RevealSequence(GameObject screen)
     {
-        hasShownPanel = true;
+        yield return new WaitForSeconds(outcomeRevealDelay);
+
         screen.SetActive(true);
         gameOverPanel.SetActive(true);
+
+        yield return new WaitForSeconds(scorePanelRevealDelay);
+
+        scoreText.text = GameManager.Instance.CurrentScore.ToString();
+        scorePanel.SetActive(true);
     }
     #endregion
 }
