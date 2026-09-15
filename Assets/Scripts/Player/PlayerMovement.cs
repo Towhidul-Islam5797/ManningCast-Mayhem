@@ -2598,6 +2598,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private int hazardScorePenalty;
     #endregion
 
+    #region Validation
+    private void OnValidate()
+    {
+        if (moveDuration <= 0f)
+        {
+            moveDuration = 0.01f;
+        }
+    }
+    #endregion
+
     #region Throw Settings
     [SerializeField] private ThrownFootball thrownFootballPrefab;
     [SerializeField] private float throwSpeed = 8f;

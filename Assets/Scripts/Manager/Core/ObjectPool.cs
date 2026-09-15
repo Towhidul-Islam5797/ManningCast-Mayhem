@@ -21,6 +21,16 @@ public class ObjectPool : MonoBehaviour
     private readonly Queue<GameObject> pool = new Queue<GameObject>();
     #endregion
 
+    #region Validation
+    private void OnValidate()
+    {
+        if (initialSize < 0)
+        {
+            initialSize = 0;
+        }
+    }
+    #endregion
+
     #region Unity Lifecycle
     private void Awake()
     {

@@ -766,6 +766,24 @@ public class ObstacleSpawner : MonoBehaviour
             StartCoroutine(SpawnEntryLoop(spawnEntries[i]));
         }
     }
+
+    private void OnValidate()
+    {
+        if (spawnEntries == null) return;
+
+        foreach (SpawnEntry entry in spawnEntries)
+        {
+            if (entry == null) continue;
+
+            entry.delayBetweenObstaclesInBurstMin = Mathf.Max(0f, entry.delayBetweenObstaclesInBurstMin);
+            entry.delayBetweenObstaclesInBurstMax = Mathf.Max(entry.delayBetweenObstaclesInBurstMin, entry.delayBetweenObstaclesInBurstMax);
+
+            entry.gapBetweenBurstsMin = Mathf.Max(0f, entry.gapBetweenBurstsMin);
+            entry.gapBetweenBurstsMax = Mathf.Max(entry.gapBetweenBurstsMin, entry.gapBetweenBurstsMax);
+
+            entry.initialPopulationCount = Mathf.Max(0, entry.initialPopulationCount);
+        }
+    }
     #endregion
 
     #region Pre-Population
