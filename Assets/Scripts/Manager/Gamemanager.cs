@@ -3446,6 +3446,24 @@ public class GameManager : MonoBehaviour
         totalBonusScoreEarned = 0;
         totalHazardPenaltyTaken = 0;
     }
+    private void OnValidate()
+    {
+        if (startingLives < 1)
+        {
+            startingLives = 1;
+        }
+
+        if (timeLimit <= 0f)
+        {
+            timeLimit = 1f;
+        }
+
+        if (maxFootballCharges < 0)
+        {
+            maxFootballCharges = 0;
+        }
+    }
+
     #endregion
 
     #region Game State
