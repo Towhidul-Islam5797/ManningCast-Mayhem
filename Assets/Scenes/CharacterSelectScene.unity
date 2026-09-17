@@ -764,6 +764,11 @@ MonoBehaviour:
   bonusScoreClip: {fileID: 8300000, guid: 4f3e4f601dcde034fad368b5ae151d8f, type: 3}
   hitClip: {fileID: 8300000, guid: 4a5c6e9d9322ca94faffffee7d4d21c8, type: 3}
   deathClip: {fileID: 8300000, guid: 5d71ab50a0b766946a04f242faeb6008, type: 3}
+  winClip: {fileID: 8300000, guid: 9d4a9014a6a40724a9cb64737bf33338, type: 3}
+  loseClip: {fileID: 8300000, guid: e4058a27faa8bd44c83d870288740d0b, type: 3}
+  lostLifeClip: {fileID: 8300000, guid: 331931b5aca356848abec7fe77427d04, type: 3}
+  quarterzipClip: {fileID: 8300000, guid: 20d6a1a5f50041c4fa3e678791f72d3d, type: 3}
+  footballThrowClip: {fileID: 8300000, guid: 58af0eb530557284c973e16b093dd3b1, type: 3}
 --- !u!4 &753145028
 Transform:
   m_ObjectHideFlags: 0
