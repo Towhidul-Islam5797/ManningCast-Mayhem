@@ -272,7 +272,112 @@
 #endregion
 
 #region Phase 3 Sprint 11 - Billboard Manager + Error Handling
+//using System.Collections;
+//using TMPro;
+//using UnityEngine;
+//using UnityEngine.SceneManagement;
+//using UnityEngine.UI;
+//using UnityEngine.Video;
+
+//public class BillboardManager : MonoBehaviour
+//{
+//    #region Settings
+//    [SerializeField] private string gameSceneName = "GameScene";
+//    [SerializeField] private float skipUnlockSeconds = 8f;
+//    #endregion
+
+//    #region References
+//    [SerializeField] private VideoPlayer videoPlayer;
+//    [SerializeField] private Button skipButton;
+//    [SerializeField] private TMP_Text skipButtonText;
+//    #endregion
+
+//    #region Private State
+//    private AsyncOperation sceneLoad;
+//    private bool videoFinished;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Start()
+//    {
+//        skipButton.interactable = false;
+//        videoPlayer.loopPointReached += OnVideoFinished;
+//        videoPlayer.Play();
+
+//        sceneLoad = SceneManager.LoadSceneAsync(gameSceneName);
+
+//        if (sceneLoad == null)
+//        {
+//            Debug.LogError("BillboardManager: failed to start loading scene '" + gameSceneName + "'. Check the scene name and Build Settings.");
+//            return;
+//        }
+
+//        sceneLoad.allowSceneActivation = false;
+
+//        StartCoroutine(SkipCountdown());
+//    }
+
+//    private void Update()
+//    {
+//        if (sceneLoad == null || sceneLoad.allowSceneActivation) return;
+
+//        if (videoFinished && sceneLoad.progress >= 0.9f)
+//        {
+//            sceneLoad.allowSceneActivation = true;
+//        }
+//    }
+
+//    private void OnDestroy()
+//    {
+//        if (videoPlayer != null)
+//        {
+//            videoPlayer.loopPointReached -= OnVideoFinished;
+//        }
+//    }
+//    #endregion
+
+//    #region Video
+//    private void OnVideoFinished(VideoPlayer source)
+//    {
+//        videoFinished = true;
+//    }
+//    #endregion
+
+//    #region Skip
+//    private IEnumerator SkipCountdown()
+//    {
+//        int secondsRemaining = Mathf.CeilToInt(skipUnlockSeconds);
+
+//        while (secondsRemaining > 0)
+//        {
+//            skipButtonText.text = "SKIP " + secondsRemaining;
+//            yield return new WaitForSeconds(1f);
+//            secondsRemaining--;
+//        }
+
+//        skipButtonText.text = "SKIP";
+
+//        while (sceneLoad.progress < 0.9f)
+//        {
+//            yield return null;
+//        }
+
+//        skipButton.interactable = true;
+//    }
+
+//    public void Skip()
+//    {
+//        videoPlayer.Stop();
+//        videoFinished = true;
+//        sceneLoad.allowSceneActivation = true;
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 11 - Billboard Manager + Error Handling
 using System.Collections;
+using System.IO;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -283,7 +388,8 @@ public class BillboardManager : MonoBehaviour
 {
     #region Settings
     [SerializeField] private string gameSceneName = "GameScene";
-    [SerializeField] private float skipUnlockSeconds = 8f;
+    [SerializeField] private float skipUnlockSeconds = 4f;
+    [SerializeField] private string videoFileName = "Billboard.mp4";
     #endregion
 
     #region References
@@ -301,6 +407,13 @@ public class BillboardManager : MonoBehaviour
     private void Start()
     {
         skipButton.interactable = false;
+
+        // WebGL doesn't support the Video Clip data source at all - only URL
+        // playback works there, since it plays through the browser's own
+        // video element. The file needs to live in StreamingAssets.
+        videoPlayer.source = VideoSource.Url;
+        videoPlayer.url = Path.Combine(Application.streamingAssetsPath, videoFileName);
+
         videoPlayer.loopPointReached += OnVideoFinished;
         videoPlayer.Play();
 
