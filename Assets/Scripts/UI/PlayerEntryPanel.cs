@@ -301,7 +301,7 @@ public class PlayerEntryPanel : MonoBehaviour
         if (!LeaderboardService.Instance.HasSavedIdentity() && !skipWarningShown)
         {
             skipWarningShown = true;
-            ShowValidationError("No saved details - your score won't be recorded. Press Skip again to continue anyway.");
+            ShowValidationError("No saved details!!your score won't be recorded");
             return;
         }
 
