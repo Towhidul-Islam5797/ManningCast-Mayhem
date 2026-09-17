@@ -3903,6 +3903,242 @@
 #endregion
 
 #region Phase 3 Sprint 3 - GameManager Implementation with Score and Lives, Elapsed Time, Time Penalty for Sandwich, and Time Limit
+//using UnityEngine;
+
+//public class GameManager : MonoBehaviour
+//{
+//    #region Singleton
+//    public static GameManager Instance { get; private set; }
+
+//    private void Awake()
+//    {
+//        Instance = this;
+//        currentLives = startingLives;
+//        currentScore = 0;
+//        elapsedTime = 0f;
+//        remainingTime = timeLimit;
+//        footballCharges = 0;
+//        currentState = GameState.Playing;
+//        totalBonusScoreEarned = 0;
+//        totalHazardPenaltyTaken = 0;
+//    }
+//    private void OnValidate()
+//    {
+//        if (startingLives < 1)
+//        {
+//            startingLives = 1;
+//        }
+
+//        if (timeLimit <= 0f)
+//        {
+//            timeLimit = 1f;
+//        }
+
+//        if (maxFootballCharges < 0)
+//        {
+//            maxFootballCharges = 0;
+//        }
+//    }
+
+//    #endregion
+
+//    #region Game State
+//    public enum GameState
+//    {
+//        Playing,
+//        Won,
+//        Lost
+//    }
+
+//    private GameState currentState;
+//    public GameState CurrentState => currentState;
+//    public bool IsGameOver => currentState != GameState.Playing;
+//    #endregion
+
+//    #region Lives Settings
+//    [SerializeField] private int startingLives = 3;
+//    private int currentLives;
+//    public int CurrentLives => currentLives;
+//    #endregion
+
+//    #region Score Settings
+//    [SerializeField] private int scorePerLaneAdvance = 10;
+//    [SerializeField] private int maxBonusScorePerRun = 2500;
+//    [SerializeField] private int maxHazardPenaltyPerRun = 2500;
+//    private int currentScore;
+//    private int totalBonusScoreEarned;
+//    private int totalHazardPenaltyTaken;
+//    public int CurrentScore => currentScore;
+
+//    private int ApplyCappedAmount(int amount, int cap, ref int totalSoFar)
+//    {
+//        int remaining = Mathf.Max(0, cap - totalSoFar);
+//        int applied = Mathf.Min(amount, remaining);
+//        totalSoFar += applied;
+//        return applied;
+//    }
+//    #endregion
+
+//    #region Time Settings
+//    [SerializeField] private int pointsPerSecondRemaining = 10;
+//    [SerializeField] private int scorePenaltyPerLifeLost = 50;
+//    private float elapsedTime;
+//    public float ElapsedTime => elapsedTime;
+//    #endregion
+
+//    #region Time Limit Settings
+//    [SerializeField] private float timeLimit = 90f;
+//    private float remainingTime;
+//    public float RemainingTime => remainingTime;
+//    #endregion
+
+//    #region Unity Lifecycle
+//    private void Update()
+//    {
+//        if (currentState == GameState.Playing)
+//        {
+//            elapsedTime += Time.deltaTime;
+//            remainingTime = Mathf.Max(0f, remainingTime - Time.deltaTime);
+
+//            if (remainingTime <= 0f)
+//            {
+//                TimeExpired();
+//            }
+//        }
+//    }
+//    #endregion
+
+//    #region Game State Changes
+//    public void PlayerHitObstacle(int scorePenalty)
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentLives--;
+//        int appliedPenalty = ApplyCappedAmount(scorePenalty, maxHazardPenaltyPerRun, ref totalHazardPenaltyTaken);
+//        currentScore = Mathf.Max(0, currentScore - appliedPenalty);
+//        UnityEngine.Debug.Log("Life lost. Lives remaining: " + currentLives);
+
+//        if (currentLives <= 0)
+//        {
+//            currentState = GameState.Lost;
+//            AudioManager.Instance.PlayDeath();
+//            AudioManager.Instance.PlayLose();
+//            UnityEngine.Debug.Log("Game Over");
+
+//            if (LeaderboardService.Instance != null)
+//            {
+//                LeaderboardService.Instance.SubmitScore(currentScore);
+//            }
+//        }
+//        else
+//        {
+//            AudioManager.Instance.PlayLostLife();
+//        }
+
+//        SpectatorReaction.Instance.ShowNegative();
+//    }
+
+//    public void PlayerHitSandwich(int scorePenalty, float timePenaltySeconds)
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        int appliedPenalty = ApplyCappedAmount(scorePenalty, maxHazardPenaltyPerRun, ref totalHazardPenaltyTaken);
+//        currentScore = Mathf.Max(0, currentScore - appliedPenalty);
+//        remainingTime = Mathf.Max(0f, remainingTime - timePenaltySeconds);
+//        if (remainingTime <= 0f) TimeExpired();
+//        AudioManager.Instance.PlayHit();
+//        SpectatorReaction.Instance.ShowNegative();
+//    }
+//    public void AddLaneProgressScore()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentScore += scorePerLaneAdvance;
+//    }
+
+
+//    public void PlayerReachedGoal()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        int triesUsed = startingLives - currentLives;
+//        float timeRemaining = remainingTime;
+
+//        int triesPenalty = triesUsed * scorePenaltyPerLifeLost;
+
+//        int timeBonus = Mathf.RoundToInt(timeRemaining * pointsPerSecondRemaining);
+
+//        currentScore = Mathf.Max(0, currentScore + timeBonus - triesPenalty);
+
+//        currentState = GameState.Won;
+//        AudioManager.Instance.PlayWin();
+//        SpectatorReaction.Instance.ShowPositive();
+
+//        if (LeaderboardService.Instance != null)
+//        {
+//            LeaderboardService.Instance.SubmitScore(currentScore);
+//        }
+
+//        UnityEngine.Debug.Log("You Win. Tries used: " + triesUsed + ", Time remaining: " + timeRemaining);
+//    }
+
+//    private void TimeExpired()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        currentState = GameState.Lost;
+//        AudioManager.Instance.PlayLose();
+//        SpectatorReaction.Instance.ShowNegative();
+//        UnityEngine.Debug.Log("Time's up. Game Over");
+
+//        if (LeaderboardService.Instance != null)
+//        {
+//            LeaderboardService.Instance.SubmitScore(currentScore);
+//        }
+//    }
+//    #endregion
+
+//    #region Football Charges
+//    [SerializeField] private int maxFootballCharges = 3;
+//    private int footballCharges;
+//    public int FootballCharges => footballCharges;
+
+//    public void CollectFootball()
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        footballCharges = Mathf.Min(footballCharges + 1, maxFootballCharges);
+//        AudioManager.Instance.PlayPickup();
+//        SpectatorReaction.Instance.ShowPositive();
+//    }
+
+//    public bool SpendFootball()
+//    {
+//        if (footballCharges <= 0) return false;
+
+//        footballCharges--;
+//        return true;
+//    }
+//    #endregion
+
+//    #region Quarterzip Pickup
+//    public void CollectQuarterzip(int bonusScore, float bonusTimeSeconds)
+//    {
+//        if (currentState != GameState.Playing) return;
+
+//        int appliedBonus = ApplyCappedAmount(bonusScore, maxBonusScorePerRun, ref totalBonusScoreEarned);
+//        currentScore += appliedBonus;
+//        remainingTime += bonusTimeSeconds;
+
+//        AudioManager.Instance.PlayQuarterzip();
+
+//        SpectatorReaction.Instance.ShowPositive();
+//    }
+//    #endregion
+//}
+#endregion
+
+#region Phase 3 Sprint 3 - GameManager Implementation with Score and Lives, Elapsed Time, Time Penalty for Sandwich, and Time Limit
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -4100,6 +4336,7 @@ public class GameManager : MonoBehaviour
 
     #region Football Charges
     [SerializeField] private int maxFootballCharges = 3;
+    [SerializeField] private int footballPickupScore = 5;
     private int footballCharges;
     public int FootballCharges => footballCharges;
 
@@ -4108,6 +4345,10 @@ public class GameManager : MonoBehaviour
         if (currentState != GameState.Playing) return;
 
         footballCharges = Mathf.Min(footballCharges + 1, maxFootballCharges);
+
+        int appliedBonus = ApplyCappedAmount(footballPickupScore, maxBonusScorePerRun, ref totalBonusScoreEarned);
+        currentScore += appliedBonus;
+
         AudioManager.Instance.PlayPickup();
         SpectatorReaction.Instance.ShowPositive();
     }

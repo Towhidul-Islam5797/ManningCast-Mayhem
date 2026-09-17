@@ -6741,8 +6741,8 @@ MonoBehaviour:
     - Don't get tackled!\r\n<b>Penalty Flags</b> - Costs the most points if you're
     hit\r\n<b>Sandwich</b> - They are delicious\u2026 but it'll cost you time and
     points.\r\n\r\n<b><size=110%>FOOTBALLS</size></b>\r\nPoints received for every
-    pick up\r\nYou can hold up to three at a time\r\nPress <b>\"E\"</b> to throw
-    it forward and clear an athlete\r\n\r\n<b><size=110%>QUARTERZIPS</size></b>\r\nBonus
+    pick up\r\nYou can hold up to three at a time\r\nPress <b>\"Spacebar\"</b> to
+    throw it forward and clear an athlete\r\n\r\n<b><size=110%>QUARTERZIPS</size></b>\r\nBonus
     points.. especially the golden ones!\r\n\r\n<b><size=110%>SCORING</size></b>\r\nForward
     = points. Backtracking = nothing. Fast finish = bonus. Caught = lose points."
   m_isRightToLeft: 0
